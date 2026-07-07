@@ -1,0 +1,66 @@
+<module>
+	<rawname>zerotouchsip</rawname>
+	<repo>standard</repo>
+	<name>ZeroTouchSIP</name>
+	<version>17.0.0</version>
+	<publisher>YURI STEP. — Net Production —</publisher>
+	<license>GPLv3+</license>
+	<licenselink>https://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<more-info>https://github.com/yuristep/ZeroTouchSIP.git</more-info>
+	<category>Connectivity</category>
+	<supported>
+		<version>17.0</version>
+	</supported>
+	<supported_langs>
+		<lang>en_US</lang>
+		<lang>ru_RU</lang>
+		<lang>zh_CN</lang>
+	</supported_langs>
+	<menuitems>
+		<zerotouchsip>ZeroTouchSIP</zerotouchsip>
+	</menuitems>
+	<description>Configure and manage Yealink/Fanvil SIP phones on your FreePBX system.</description>
+	<changelog>
+		*17.0.0* Initial release for FreePBX 17
+	</changelog>
+	<depends>
+		<version>17.0.0</version>
+		<module>core</module>
+	</depends>
+	<database>
+		<table name="zts_settings">
+			<field name="keyword" type="string" length="50" primarykey="true"/>
+			<field name="value" type="text"/>
+		</table>
+		<table name="zts_networks">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+		</table>
+		<table name="zts_network_settings">
+			<field name="id" type="integer" primarykey="true"/>
+			<field name="keyword" type="string" length="50" primarykey="true"/>
+			<field name="value" type="text"/>
+		</table>
+		<table name="zts_devices">
+			<field name="id" type="integer" primarykey="true" autoincrement="true"/>
+		</table>
+		<table name="zts_device_settings">
+			<field name="id" type="integer" primarykey="true"/>
+			<field name="keyword" type="string" length="50" primarykey="true"/>
+			<field name="value" type="text"/>
+		</table>
+		<table name="zts_device_lines">
+			<field name="id" type="integer" primarykey="true"/>
+			<field name="lineid" type="integer" primarykey="true"/>
+		</table>
+		<table name="zts_device_line_settings">
+			<field name="id" type="integer" primarykey="true"/>
+			<field name="lineid" type="integer" primarykey="true"/>
+			<field name="keyword" type="string" length="50" primarykey="true"/>
+			<field name="value" type="text"/>
+		</table>
+		<table name="zts_device_linekeys">
+			<field name="id" type="integer" primarykey="true"/>
+			<field name="linekeyid" type="integer" primarykey="true"/>
+		</table>
+	</database>
+</module>

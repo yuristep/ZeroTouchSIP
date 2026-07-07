@@ -1,0 +1,924 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zerotouchsip\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Chinese (Simplified)\n"
+
+msgid " — no Avail contact: %s"
+msgstr "— 无可用联系人：%s"
+
+msgid "(UTC) GMT,Torshavn,Dublin,Lisboa,Porto,Funchal,Las Palmas,London,Morocco"
+msgstr "(UTC) GMT、托沙文、都柏林、里斯本、波尔图、丰沙尔、拉斯帕尔马斯、伦敦、摩洛哥"
+
+msgid "(UTC+1) Tirane,Vienna,Brussels,Caicos,Chad,Madrid,Zagreb,Prague,Kopenhagen,Paris,Berlin,Budapest,Rome,Luxembourg,Skopje,Amsterdam,Windhoek,Warsaw,Stockholm"
+msgstr "(UTC+1) 地拉内、维也纳、布鲁塞尔、凯科斯群岛、乍得、马德里、萨格勒布、布拉格、哥本哈根、巴黎、柏林、布达佩斯、罗马、卢森堡、斯科普里、阿姆斯特丹、温得和克、华沙、斯德哥尔摩"
+
+msgid "(UTC+10) Sydney,Melbourne,Canberra,Brisbane,Hobart,Vladivostok"
+msgstr "(UTC+10) 悉尼、墨尔本、堪培拉、布里斯班、霍巴特、符拉迪沃斯托克"
+
+msgid "(UTC+10:30) Lord Howe Islands"
+msgstr "(UTC+10:30) 豪勋爵群岛"
+
+msgid "(UTC+11) Noumea,Srednekolymsk Time"
+msgstr "(UTC+11) 努美阿中科雷姆斯克时间"
+
+msgid "(UTC+11:30) Norfolk Island"
+msgstr "(UTC+11:30) 诺福克岛"
+
+msgid "(UTC+12) Wellington,Auckland,Kamchatka Time"
+msgstr "(UTC+12) 惠灵顿、奥克兰、堪察加时间"
+
+msgid "(UTC+12:45) Chatham Islands"
+msgstr "(UTC+12:45) Chatham Islands"
+
+msgid "(UTC+13) Nukualofa,Apia"
+msgstr "(UTC+13) 努库阿洛法，阿皮亚"
+
+msgid "(UTC+13:30) Chatham Islands"
+msgstr "(UTC+13:30) 查塔姆群岛"
+
+msgid "(UTC+14) Kiribati"
+msgstr "(UTC+14) 基里巴斯"
+
+msgid "(UTC+2) Tallinn,Helsinki,Gaza,Athens,Tel Aviv,Amman,Riga,Beirut,Kishinev,Kaliningrad,Bucharest,Damascus,Kyiv,Odessa,South Africa"
+msgstr "(UTC+2) 塔林、赫尔辛基、加沙、雅典、特拉维夫、安曼、里加、贝鲁特、基希讷乌、加里宁格勒、布加勒斯特、大马士革、基辅、敖德萨、南非"
+
+msgid "(UTC+3) East Africa Time,Baghdad,Moscow,Ankara,Istanbul"
+msgstr "(UTC+3) 东非时间,巴格达,莫斯科,安卡拉,伊斯坦布尔"
+
+msgid "(UTC+3:30) Tehran"
+msgstr "(UTC+3:30) 德黑兰"
+
+msgid "(UTC+4) Yerevan,Baku,Tbilisi,Aktau,Samara,Dubai"
+msgstr "(UTC+4) 埃里温、巴库、第比利斯、阿克套、萨马拉、迪拜"
+
+msgid "(UTC+4:30) Kabul"
+msgstr "(UTC+4:30) 喀布尔"
+
+msgid "(UTC+5) Aqtobe,Bishkek,Islamabad,Chelyabinsk"
+msgstr "(UTC+5) 阿克托比、比什凯克、伊斯兰堡、车里雅宾斯克"
+
+msgid "(UTC+5:30) Calcutta,Sri Jayawardenepura"
+msgstr "(UTC+5:30) 加尔各答，斯里贾亚瓦德纳普拉"
+
+msgid "(UTC+5:45) Katmandu"
+msgstr "(UTC+5:45) 加德满都"
+
+msgid "(UTC+6) Astana,Almaty,Omsk"
+msgstr "(UTC+6) 阿斯塔纳、阿拉木图、鄂木斯克"
+
+msgid "(UTC+6:30) Naypyitaw"
+msgstr "(UTC+6:30) 内比都"
+
+msgid "(UTC+7) Krasnoyarsk,Novosibirsk,Bangkok"
+msgstr "(UTC+7) 克拉斯诺亚尔斯克、新西伯利亚、曼谷"
+
+msgid "(UTC+8) Beijing,Taipei,Singapore,Perth,Irkutsk, Ulan-Ude"
+msgstr "(UTC+8) 北京、台北、新加坡、珀斯、伊尔库茨克、乌兰乌德"
+
+msgid "(UTC+8:45) Eucla"
+msgstr "(UTC+8:45) 尤克拉"
+
+msgid "(UTC+9) Seoul,Tokyo,Yakutsk, Chita"
+msgstr "(UTC+9) 首尔、东京、雅库茨克、赤塔"
+
+msgid "(UTC+9:30) Adelaide,Darwin"
+msgstr "(UTC+9:30) 阿德莱德、达尔文"
+
+msgid "(UTC-1) Azores,Cape Verde Is"
+msgstr "(UTC-1) 亚速尔群岛、佛得角"
+
+msgid "(UTC-10) Hawaii-Aleutian,Alaska-Aleutian"
+msgstr "(UTC-10) 夏威夷-阿留申群岛、阿拉斯加-阿留申群岛"
+
+msgid "(UTC-11) American Samoa"
+msgstr "(UTC-11) 美属萨摩亚"
+
+msgid "(UTC-12) International Date Line West"
+msgstr "(UTC-12) 国际日期变更线西"
+
+msgid "(UTC-2) no DST,Mid-Atlantic,Greenland"
+msgstr "(UTC-2) 无夏令时，大西洋中部，格陵兰岛"
+
+msgid "(UTC-2:30) Newfoundland and Labrador"
+msgstr "(UTC-2:30) 纽芬兰及拉布拉多"
+
+msgid "(UTC-3) Nuuk,Buenos Aires,no DST,DST"
+msgstr "(UTC-3) 努克, 布宜诺斯艾利斯, 无夏令时, 夏令时"
+
+msgid "(UTC-3:30) New Foundland"
+msgstr "(UTC-3:30) 纽芬兰"
+
+msgid "(UTC-4) Halifax,Saint John,Santiago,Asuncion,Bermuda,Falkland Islands,Trinidad Tobago"
+msgstr "(UTC-4) 哈利法克斯、圣约翰、圣地亚哥、亚松森、百慕大、福克兰群岛、特立尼达多巴哥"
+
+msgid "(UTC-4:30) Caracas"
+msgstr "(UTC-4:30) 加拉加斯"
+
+msgid "(UTC-5) Nassau,Montreal,Ottawa,Quebec,Havana,Eastern Time"
+msgstr "(UTC-5) 拿骚、蒙特利尔、渥太华、魁北克、哈瓦那、东部时间"
+
+msgid "(UTC-6) Manitoba,Easter Islands,Mexico City,Acapulco,Central Time"
+msgstr "(UTC-6) 马尼托巴省、复活节群岛、墨西哥城、阿卡普尔科、中部时间"
+
+msgid "(UTC-7) Edmonton,Calgary,Mazatlan,Chihuahua,Mountain Time,United States-MST no DST"
+msgstr "(UTC-7) 埃德蒙顿, 卡尔加里, 马萨特兰, 奇瓦瓦, 山地时间, 美国 - MST 无夏令时"
+
+msgid "(UTC-8) Vancouver,Whitehorse,Tijuana,Mexicali,Pacific Time"
+msgstr "(UTC-8) 温哥华、怀特霍斯、蒂华纳、墨西卡利、太平洋时间"
+
+msgid "(UTC-9) Alaska Time"
+msgstr "(UTC-9) 阿拉斯加时间"
+
+msgid "(UTC-9:30) French Polynesia"
+msgstr "(UTC-9:30) 法属波利尼西亚"
+
+msgid "*8"
+msgstr "*8"
+
+msgid "0"
+msgstr "0"
+
+msgid "12 hex digits, no separators (e.g., 805EC0123456)"
+msgstr "12 个十六进制数字，无分隔符（例如 805EC0123456）"
+
+msgid "192.168.1.0/24"
+msgstr "192.168.1.0/24"
+
+msgid "802.1x"
+msgstr "802.1x"
+
+msgid "802.1X only"
+msgstr "仅 802.1X"
+
+msgid "Actions"
+msgstr "行动"
+
+msgid "Add Keys"
+msgstr "添加键"
+
+msgid "Add Network"
+msgstr "添加网络"
+
+msgid "Add Phone"
+msgstr "添加电话"
+
+msgid "Add Profile"
+msgstr "添加个人资料"
+
+msgid "Add template"
+msgstr "添加模板"
+
+msgid "Add User"
+msgstr "添加用户"
+
+msgid "admin"
+msgstr "admin"
+
+msgid "Administrators"
+msgstr "管理员"
+
+msgid "AES (CCMP)"
+msgstr "高级加密标准 (CCMP)"
+
+msgid "Apache PHP error log (JSON lines, tag [ZeroTouchSIP Prov])"
+msgstr "Apache PHP 错误日志（JSON 行，标签 [ZeroTouchSIP Prov]）"
+
+msgid "Applied Line Key template \\\"%s\\\" to %d phone(s). Save/Notify is not triggered automatically; use Notify if you want phones to fetch the new config now."
+msgstr "已将线路键模板“%s”应用到 %d 部电话。保存/通知不会自动触发；如果您希望手机立即获取新配置，请使用通知。"
+
+msgid "Apply"
+msgstr "申请"
+
+msgid "Apply Line Key template \\\"%template%\\\" to %count% selected phone(s)? Existing Line Keys on those phones will be replaced."
+msgstr "将线路键模板“%template%”应用于 %count% 部选定的电话？这些电话上现有的线路键将被替换。"
+
+msgid "Apply Line Keys"
+msgstr "应用线路键"
+
+msgid "Apply name to tab"
+msgstr "将名称应用于选项卡"
+
+msgid "Apply selected template to checked phones"
+msgstr "将选定的模板应用到检查的手机"
+
+msgid "Apply template"
+msgstr "应用模板"
+
+msgid "Apply to Line Keys"
+msgstr "适用于线路键"
+
+msgid "Are you sure you want to delete the selected network(s)?"
+msgstr "您确定要删除选定的网络吗？"
+
+msgid "Are you sure you want to delete the selected phone(s)?"
+msgstr "您确定要删除选定的电话吗？"
+
+msgid "Assign FreePBX devices to phone lines (Fanvil H2U/H5/H6W/W611W: up to 2 SIP lines)."
+msgstr "将 FreePBX 设备分配到电话线路（Fanvil H2U/H5/H6W/W611W：最多 2 条 SIP 线路）。"
+
+msgid "Assign FreePBX devices to phone lines (up to 16 lines supported)"
+msgstr "将 FreePBX 设备分配给电话线路（最多支持 16 条线路）"
+
+msgid "Asterisk Manager (AMI) is not available to PHP — SIP NOTIFY was not sent."
+msgstr "Asterisk Manager (AMI) 对 PHP 不可用 — SIP NOTIFY 未发送。"
+
+msgid "Asterisk Manager (AMI) is not available to PHP — SIP NOTIFY was not sent. Check Manager access for this admin user."
+msgstr "Asterisk Manager (AMI) 对 PHP 不可用 — SIP NOTIFY 未发送。检查此管理员用户的管理员访问权限。"
+
+msgid "Asterisk Manager (AMI) is not available — extra SIP NOTIFY was not sent."
+msgstr "Asterisk Manager (AMI) 不可用 — 未发送额外的 SIP NOTIFY。"
+
+msgid "At least one named Line Key template is required."
+msgstr "至少需要一个已命名的线路键模板。"
+
+msgid "At least one template is required."
+msgstr "至少需要一个模板。"
+
+msgid "Auto"
+msgstr "汽车"
+
+msgid "Auto Detect"
+msgstr "自动检测"
+
+msgid "Auto or Fanvil for Fanvil H2U/H5/H6W/W611W. Do not choose Yealink for those models - the server would send Yealink text format and the phone will ignore it; Yealink is overridden to Fanvil for H-series models only when this mistake is made."
+msgstr "Auto 或 Fanvil 适用于 Fanvil H2U/H5/H6W/W611W。这些型号不要选择 Yealink - 服务器会发送 Yealink 文本格式，手机会忽略它；仅当出现此错误时，Yealink 才会在 H 系列机型上覆盖至 Fanvil。"
+
+msgid "Auto-Provision Repeat Interval (minutes)"
+msgstr "自动配置重复间隔（分钟）"
+
+msgid "Auto-Provisioning"
+msgstr "自动配置"
+
+msgid "Automatic"
+msgstr "自动的"
+
+msgid "Ban after invalid hash attempts"
+msgstr "无效哈希尝试后禁止"
+
+msgid "Ban duration (seconds)"
+msgstr "禁令持续时间（秒）"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "CIDR must include network and prefix (e.g. 192.168.1.0/24)."
+msgstr "CIDR 必须包含网络和前缀（例如 192.168.1.0/24）。"
+
+msgid "CIDR Range"
+msgstr "CIDR范围"
+
+msgid "Codec"
+msgstr "编解码器"
+
+msgid "Codec Settings"
+msgstr "编解码器设置"
+
+msgid "Codecs enabled in FreePBX General SIP Settings (Settings → SIP Settings → Codecs). Set phone priority per codec (0 = disabled on handset, 1–16 = lower number is higher priority). Yealink and Fanvil values are applied during provisioning."
+msgstr "在 FreePBX 常规 SIP 设置中启用编解码器（设置 → SIP 设置 → 编解码器）。设置每个编解码器的电话优先级（0 = 在手机上禁用，1–16 = 数字越小优先级越高）。 Yealink 和 Fanvil 值在配置期间应用。"
+
+msgid "Config Version"
+msgstr "配置版本"
+
+msgid "Config Version must look like 2.0004 (major.minor, Fanvil Current Config Version)."
+msgstr "配置版本必须类似于 2.0004（主要.次要，Fanvil 当前配置版本）。"
+
+msgid "Configure and manage Yealink/Fanvil SIP phones on your FreePBX system."
+msgstr "在 FreePBX 系统上配置和管理 Yealink/Fanvil SIP 电话。"
+
+msgid "Configure network-specific settings by IP range (CIDR notation). Settings are applied based on the phone's IP address during provisioning."
+msgstr "按 IP 范围（CIDR 表示法）配置网络特定设置。在配置期间根据电话的 IP 地址应用设置。"
+
+msgid "Configure programmable keys for BLF monitoring, speed dial, etc."
+msgstr "配置用于 BLF 监控、快速拨号等的可编程按键。"
+
+msgid "Create Line Key Templates in General Settings first."
+msgstr "首先在常规设置中创建线路键模板。"
+
+msgid "Create named Line Key templates here for BLF and speed dial layouts. Each tab is a separate template: rename it, configure the keys, then save settings. On Edit Phone, select a template and click Apply to Line Keys to copy it into that phone; the phone is updated only after you save the phone form."
+msgstr "在此处为 BLF 和快速拨号布局创建命名的线路键模板。每个选项卡都是一个单独的模板：重命名、配置按键，然后保存设置。在“编辑电话”上，选择一个模板，然后单击“应用到线路键”将其复制到该电话中；仅在保存电话表单后，电话才会更新。"
+
+msgid "Daylight Saving Time"
+msgstr "夏令时"
+
+msgid "Dedicated log file (append, one JSON line per event)"
+msgstr "专用日志文件（附加，每个事件一行 JSON）"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Default Backlight Timeout (seconds)"
+msgstr "默认背光超时（秒）"
+
+msgid "Default display and provisioning behavior for newly discovered phones. Trust certificates controls whether phones accept self-signed HTTPS certificates during provisioning."
+msgstr "新发现的电话的默认显示和配置行为。信任证书控制电话在配置期间是否接受自签名 HTTPS 证书。"
+
+msgid "Default Language"
+msgstr "默认语言"
+
+msgid "Default Network"
+msgstr "默认网络"
+
+msgid "Default NTP, time zone, and daylight-saving values for new phones. Yealink and Fanvil provisioning values are mapped automatically when you save."
+msgstr "新手机的默认 NTP、时区和夏令时值。 Yealink 和 Fanvil 配置值会在您保存时自动映射。"
+
+msgid "Default Phone Settings"
+msgstr "默认电话设置"
+
+msgid "Default phone web interface users for newly discovered phones. Yealink uses security.user_name.* / security.user_password; Fanvil uses MMI Account settings unless a Network has custom users. The first Administrators row defines the default profile for auto-registered phones."
+msgstr "新发现的电话的默认电话 Web 界面用户。亿联使用 security.user_name.* / security.user_password; Fanvil 使用 MMI 帐户设置，除非网络有自定义用户。第一管理员行定义自动注册电话的默认配置文件。"
+
+msgid "Default Time Settings"
+msgstr "默认时间设置"
+
+msgid "Defaults used when a new phone is discovered or when an inventory entry has no SIP line bindings yet. Saving these defaults does not overwrite already configured phones."
+msgstr "当发现新电话或清单条目尚无 SIP 线路绑定时使用默认值。保存这些默认值不会覆盖已配置的电话。"
+
+msgid "Define up to five Wi-Fi profiles (Networks Edit). Phone Edit selects which SSID to push. Fanvil W611/W611W: Secure Mode 0=None, 1=WPA/WPA2-PSK, 2=802.1x, 3=FT-PSK; Encryption 1=TKIP, 2=AES (CCMP), 3=TKIP+AES."
+msgstr "定义最多五个 Wi-Fi 配置文件（网络编辑）。电话编辑选择要推送的 SSID。 Fanvil W611/W611W：安全模式 0=无，1=WPA/WPA2-PSK，2=802.1x，3=FT-PSK；加密 1=TKIP、2=AES (CCMP)、3=TKIP+AES。"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Delete template"
+msgstr "删除模板"
+
+msgid "Delete this template?"
+msgstr "删除这个模板吗？"
+
+msgid "Descriptive name; after a line is assigned, saved as {extension}-{Model}-{last 4 MAC chars} (e.g. 6101-T33-A1B2) unless you change it manually. Used as DHCP Hostname in provisioning."
+msgstr "描述性名称；分配线路后，保存为 {extension}-{Model}-{last 4 MAC chars}（例如 6101-T33-A1B2），除非您手动更改。在配置中用作 DHCP 主机名。"
+
+msgid "Device name is required."
+msgstr "设备名称为必填项。"
+
+msgid "DHCP setup: publish this URL to phones as their provisioning server, usually with DHCP Option 66 (or the vendor-specific provisioning URL option used in your phone VLAN). Phones should receive this URL and then request their MAC-based config from ZeroTouchSIP."
+msgstr "DHCP 设置：将此 URL 发布到电话作为其配置服务器，通常使用 DHCP 选项 66（或电话 VLAN 中使用的供应商特定的配置 URL 选项）。电话应接收此 URL，然后从 ZeroTouchSIP 请求基于 MAC 的配置。"
+
+msgid "Disabled"
+msgstr "残疾人"
+
+msgid "Display label"
+msgstr "显示标签"
+
+msgid "Duplicate template name: %s"
+msgstr "重复的模板名称：%s"
+
+msgid "e.g. 2100"
+msgstr "例如2100"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Edit in %s: %s (%s)"
+msgstr "在 %s 中编辑：%s (%s)"
+
+msgid "Edit Network"
+msgstr "编辑网络"
+
+msgid "Edit Phone"
+msgstr "编辑电话"
+
+msgid "Enable Hotline"
+msgstr "启用热线"
+
+msgid "Enable Wi-Fi"
+msgstr "启用无线网络"
+
+msgid "Enable Wi-Fi provisioning when pushing settings to the phone."
+msgstr "将设置推送到手机时启用 Wi-Fi 配置。"
+
+msgid "Enabled"
+msgstr "启用"
+
+msgid "Encryption"
+msgstr "加密"
+
+msgid "Ext"
+msgstr "分机"
+
+msgid "Extension"
+msgstr "分机"
+
+msgid "Extension %s (Fanvil): sent SIP NOTIFY (check-sync + reboot)."
+msgstr "分机 %s (Fanvil)：发送 SIP NOTIFY（检查同步 + 重新启动）。"
+
+msgid "Extension %s (Fanvil): sent SIP NOTIFY (check-sync only)."
+msgstr "分机 %s (Fanvil)：发送 SIP NOTIFY（仅检查同步）。"
+
+msgid "Extension %s: extra SIP check-sync (HTTP was %s)."
+msgstr "分机 %s：额外的 SIP 检查同步（HTTP 为 %s）。"
+
+msgid "Extension %s: sent SIP NOTIFY (check-sync only)."
+msgstr "分机 %s：发送了 SIP NOTIFY（仅检查同步）。"
+
+msgid "Extension %s: sent SIP NOTIFY (reboot + check-sync)."
+msgstr "分机 %s：发送了 SIP NOTIFY（重新启动 + 检查同步）。"
+
+msgid "Extension or number"
+msgstr "分机号或号码"
+
+msgid "Fanvil"
+msgstr "Fanvil"
+
+msgid "Fanvil defaults: 224.0.1.75, 5060, UDP, 1 hour."
+msgstr "方位默认：224.0.1.75、5060、UDP、1 小时。"
+
+msgid "Fanvil id %s (%s): HTTP Autoprovision %s"
+msgstr "Fanvil ID %s (%s)：HTTP 自动配置 %s"
+
+msgid "Fanvil id %s: no Last IP — HTTP skipped"
+msgstr "Fanvil id %s：无最后 IP — HTTP 已跳过"
+
+msgid "Fanvil: first line of MAC .cfg (Current Config Version on phone). Increase after template changes so handsets re-apply config. HTTP(S) provisioning: leave Username/Password blank to disable authentication."
+msgstr "Fanvil：MAC .cfg 的第一行（话机当前配置版本）。模板更改后增加，以便手机重新应用配置。 HTTP(S) 配置：将用户名/密码留空以禁用身份验证。"
+
+msgid "Fanvil: SIP PnP enabled in provisioning (AUTOUPDATE)"
+msgstr "Fanvil：在配置中启用 SIP PnP（自动更新）"
+
+msgid "Firmware"
+msgstr "固件"
+
+msgid "Firmware:"
+msgstr "固件："
+
+msgid "FreePBX Device"
+msgstr "FreePBX 设备"
+
+msgid "FreePBX device id %s: cannot resolve extension (Fanvil SIP NOTIFY skipped)."
+msgstr "FreePBX 设备 ID %s：无法解析分机（跳过 Fanvil SIP NOTIFY）。"
+
+msgid "FreePBX device id %s: cannot resolve extension for SIP NOTIFY — check the extension exists and is linked to the line."
+msgstr "FreePBX 设备 ID %s：无法解析 SIP NOTIFY 的分机 — 检查分机是否存在并链接到线路。"
+
+msgid "FT-PSK"
+msgstr "FT-PSK"
+
+msgid "General Information"
+msgstr "一般信息"
+
+msgid "General Settings"
+msgstr "通用设置"
+
+msgid "Hotline"
+msgstr "热线"
+
+msgid "Hotline Delay"
+msgstr "热线延迟"
+
+msgid "Hotline delay: 0-30 seconds (WarmLine time)."
+msgstr "热线延迟：0-30秒（WarmLine时间）。"
+
+msgid "Hotline Number"
+msgstr "热线电话号码"
+
+msgid "How often phones should check for config updates (default: 1440 = 24 hours)"
+msgstr "电话检查配置更新的频率（默认值：1440 = 24 小时）"
+
+msgid "Invalid CIDR."
+msgstr "CIDR 无效。"
+
+msgid "Invalid provisioning profile."
+msgstr "无效的配置文件。"
+
+msgid "IP range in CIDR notation (e.g., 192.168.1.0/24)"
+msgstr "采用 CIDR 表示法的 IP 范围（例如 192.168.1.0/24）"
+
+msgid "Key"
+msgstr "钥匙"
+
+msgid "Label"
+msgstr "标签"
+
+msgid "Last Config"
+msgstr "上次配置"
+
+msgid "Last Config:"
+msgstr "最后的配置："
+
+msgid "Last IP"
+msgstr "最后IP"
+
+msgid "Last IP:"
+msgstr "最后IP:"
+
+msgid "leave blank to keep"
+msgstr "留空以保留"
+
+msgid "Line"
+msgstr "线"
+
+msgid "Line Configuration"
+msgstr "线路配置"
+
+msgid "Line Key Template"
+msgstr "线路键模板"
+
+msgid "Line Key Templates (BLF / Speed Dial)"
+msgstr "线路键模板（BLF / 快速拨号）"
+
+msgid "Line Keys (BLF / Speed Dial)"
+msgstr "线路键（BLF/快速拨号）"
+
+msgid "Lines"
+msgstr "线路"
+
+msgid "MAC Address"
+msgstr "MAC地址"
+
+msgid "MAC address must be 12 hexadecimal digits."
+msgstr "MAC 地址必须是 12 个十六进制数字。"
+
+msgid "MAC address without colons or dashes"
+msgstr "不带冒号或破折号的 MAC 地址"
+
+msgid "Manual"
+msgstr "手动的"
+
+msgid "Maximum templates reached."
+msgstr "已达到最大模板数。"
+
+msgid "Model"
+msgstr "模型"
+
+msgid "Model:"
+msgstr "模型："
+
+msgid "Multicast address (server)"
+msgstr "组播地址（服务器）"
+
+msgid "Name"
+msgstr "姓名"
+
+msgid "NAT Keepalive Interval (seconds)"
+msgstr "NAT 保活间隔（秒）"
+
+msgid "NAT keepalive: 0 = disabled"
+msgstr "NAT 保持活动：0 = 禁用"
+
+msgid "Network Information"
+msgstr "网络信息"
+
+msgid "Network Name"
+msgstr "网络名称"
+
+msgid "Network name is required."
+msgstr "网络名称是必需的。"
+
+msgid "Networks"
+msgstr "网络"
+
+msgid "New"
+msgstr "新的"
+
+msgid "No (Validate certificates)"
+msgstr "否（验证证书）"
+
+msgid "No extension on lines — PJSIP status N/A"
+msgstr "线路无分机 — PJSIP 状态 N/A"
+
+msgid "No Line Key template selected."
+msgstr "未选择线路键模板。"
+
+msgid "No networks configured yet."
+msgstr "尚未配置网络。"
+
+msgid "No notify actions were recorded (no lines / no AMI / nothing to do)."
+msgstr "没有记录任何通知操作（没有线路/没有 AMI/无事可做）。"
+
+msgid "No phones configured yet."
+msgstr "尚未配置电话。"
+
+msgid "No phones selected."
+msgstr "未选择手机。"
+
+msgid "No PJSIP Avail contact for: %s"
+msgstr "没有 PJSIP 可联系：%s"
+
+msgid "No Wi-Fi profiles on this network. Add profiles in Networks Edit first."
+msgstr "该网络上没有 Wi-Fi 配置文件。首先在网络编辑中添加配置文件。"
+
+msgid "None"
+msgstr "没有任何"
+
+msgid "Notify"
+msgstr "通知"
+
+msgid "Notify (soft, no reboot)"
+msgstr "通知（软，无需重新启动）"
+
+msgid "NOTIFY body: {base}/{MAC}.cfg. Leave empty to use this server provisioning URL."
+msgstr "通知正文：{base}/{MAC}.cfg。留空以使用此服务器配置 URL。"
+
+msgid "NOTIFY contains pnp.php?mac=...&hash=... where hash is a one-time HMAC-SHA256 token. Invalid hash attempts can ban the client IP."
+msgstr "NOTIFY 包含 pnp.php?mac=...&hash=...，其中 hash 是一次性 HMAC-SHA256 令牌。无效的 hash 尝试可能会封禁客户端 IP。"
+
+msgid "NTP Server 1"
+msgstr "NTP服务器1"
+
+msgid "NTP Server 2"
+msgstr "NTP服务器2"
+
+msgid "Off (no structured provisioning trace)"
+msgstr "关闭（无结构化配置跟踪）"
+
+msgid "Open phone web UI (%s)"
+msgstr "打开电话 Web UI (%s)"
+
+msgid "Optional custom label"
+msgstr "可选的自定义标签"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Per-SIP-line hotline / warm line (Fanvil). Shown in config as SIP1/SIP2 Hotline Num, Enable Hotline, WarmLine Time."
+msgstr "每SIP线路热线/暖线（Fanvil）。在配置中显示为 SIP1/SIP2 热线号码、启用热线、暖线时间。"
+
+msgid "Phone"
+msgstr "电话"
+
+msgid "Phone inventory id %s: no extension line is assigned — open Edit Phone, bind a FreePBX extension, then Notify again."
+msgstr "电话库存 ID %s：未分配分机线路 — 打开编辑电话，绑定 FreePBX 分机，然后再次通知。"
+
+msgid "Phone Name"
+msgstr "电话名称"
+
+msgid "Phone Security"
+msgstr "电话安全"
+
+msgid "Phone Web Interface Users"
+msgstr "电话 Web 界面用户"
+
+msgid "Phones"
+msgstr "电话"
+
+msgid "Pickup"
+msgstr "捡起"
+
+msgid "PJSIP Avail at last device IP (%s), no Avail for extensions: %s"
+msgstr "PJSIP 在最后一个设备 IP (%s) 上可用，对于分机不可用：%s"
+
+msgid "PJSIP Avail contact at last device IP: %s"
+msgstr "PJSIP 在最后一个设备 IP 上有可用联系：%s"
+
+msgid "PJSIP Avail: %s"
+msgstr "PJSIP 可用：%s"
+
+msgid "PJSIP status unavailable (AMI not connected)"
+msgstr "PJSIP 状态不可用（AMI 未连接）"
+
+msgid "Plain text, FreePBX patterns (X Z N .), or regexp: /pattern/ or re:pattern"
+msgstr "纯文本、FreePBX 模式 (X Z N .) 或正则表达式：/pattern/ 或 re:pattern"
+
+msgid "Priority"
+msgstr "优先事项"
+
+msgid "Privilege"
+msgstr "特权"
+
+msgid "Profile URL base"
+msgstr "个人资料 URL 基础"
+
+msgid "Protocol"
+msgstr "协议"
+
+msgid "Provisioning diagnostics"
+msgstr "配置诊断"
+
+msgid "Provisioning log file path"
+msgstr "配置日志文件路径"
+
+msgid "Provisioning log mode"
+msgstr "配置日志模式"
+
+msgid "Provisioning network: %s (matched by last IP). Profiles are defined under Networks Edit. When Push is off, Fanvil W611 keeps locally configured Wi-Fi."
+msgstr "配置网络：%s（与最后一个 IP 匹配）。配置文件在网络编辑下定义。当 Push 关闭时，Fanvil W611 会保留本地配置的 Wi-Fi。"
+
+msgid "Provisioning Profile"
+msgstr "配置文件"
+
+msgid "Provisioning Settings"
+msgstr "配置设置"
+
+msgid "Provisioning URL:"
+msgstr "配置网址："
+
+msgid "Push profile to phone"
+msgstr "将个人资料推送至手机"
+
+msgid "Pushed in provisioning for phones in this network: Fanvil &lt;MMI CONFIG MODULE&gt; / AccountN Name|Password|Level; Yealink security.user_name.* and security.user_password (login:password). Administrators map to admin, Users to user. If several networks match, the narrowest CIDR (/32) wins. Empty username skips a row; if no rows are saved, Yealink uses General Settings passwords."
+msgstr "推送此网络中电话的配置：Fanvil <MMI CONFIG MODULE> / 账户N名称|密码|级别; Yealink security.user_name.* 和 security.user_password（登录名：密码）。管理员映射到管理员，用户映射到用户。如果多个网络匹配，则最窄的 CIDR (/32) 获胜。空用户名会跳过一行；如果没有保存任何行，Yealink 将使用常规设置密码。"
+
+msgid "Refresh interval (hours, 0–99)"
+msgstr "刷新间隔（小时，0–99）"
+
+msgid "Registration Expires (seconds)"
+msgstr "注册过期（秒）"
+
+msgid "Remove"
+msgstr "消除"
+
+msgid "Rename the template \\\"%s\\\" before adding another."
+msgstr "在添加另一个模板之前重命名模板“%s”。"
+
+msgid "Rename the template \\\"%s\\\" to a unique name before saving or adding another template."
+msgstr "在保存或添加另一个模板之前，将模板“%s”重命名为唯一的名称。"
+
+msgid "Responds to SUBSCRIBE; only MACs registered in the phone list. Requires UDP 5060 multicast on LAN interfaces."
+msgstr "回复订阅；仅在电话列表中注册的 MAC。需要在 LAN 接口上进行 UDP 5060 多播。"
+
+msgid "Result"
+msgstr "结果"
+
+msgid "Run PnP listener on PBX (zerotouchsip/bin/sip-pnp-listen.php, systemd)"
+msgstr "在 PBX 上运行 PnP 侦听器（zerotouchsip/bin/sip-pnp-listen.php、systemd）"
+
+msgid "Save"
+msgstr "节省"
+
+msgid "Save Settings"
+msgstr "保存设置"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search text or dial pattern (e.g. 6[123][01][0-9], 6XX)"
+msgstr "搜索文本或拨号模式（例如 6[123][01][0-9]、6XX）"
+
+msgid "Secure Mode"
+msgstr "安全模式"
+
+msgid "Secure one-time PnP URLs (?mac=...&hash=...)"
+msgstr "安全的一次性 PnP URL (?mac=...&hash=...)"
+
+msgid "Select a Wi-Fi profile (SSID) from the provisioning network."
+msgstr "从配置网络中选择 Wi-Fi 配置文件 (SSID)。"
+
+msgid "Select all"
+msgstr "选择全部"
+
+msgid "Select Line Key Template"
+msgstr "选择线路键模板"
+
+msgid "Select phones, choose a template, then apply it to replace Line Keys on those phones."
+msgstr "选择电话，选择模板，然后应用它来替换这些电话上的线路键。"
+
+msgid "Select template"
+msgstr "选择模板"
+
+msgid "Selected Line Key template was not found."
+msgstr "找不到所选的线路键模板。"
+
+msgid "Selected Wi-Fi profile is not defined on the provisioning network."
+msgstr "所选 Wi-Fi 配置文件未在配置网络上定义。"
+
+msgid "Server port"
+msgstr "服务器端口"
+
+msgid "Show password"
+msgstr "显示密码"
+
+msgid "SIP Plug and Play (PnP)"
+msgstr "SIP 即插即用 (PnP)"
+
+msgid "SIP PnP helps supported phones discover their provisioning URL automatically. Phones send a multicast SUBSCRIBE (RFC 6080 ua-profile), and the PBX replies with a NOTIFY that points the phone to its ZeroTouchSIP config URL. Fanvil phones also receive matching AUTOUPDATE PNP settings in generated configs."
+msgstr "SIP PnP 可帮助支持的电话自动发现其配置 URL。电话发送多播 SUBSCRIBE（RFC 6080 ua-profile），PBX 回复 NOTIFY，将电话指向其 ZeroTouchSIP 配置 URL。 Fanvil 电话还会在生成的配置中接收匹配的 AUTOUPDATE PNP 设置。"
+
+msgid "SIP Server Address"
+msgstr "SIP服务器地址"
+
+msgid "SIP Server Port"
+msgstr "SIP服务器端口"
+
+msgid "SIP Server Settings"
+msgstr "SIP 服务器设置"
+
+msgid "Sort"
+msgstr "种类"
+
+msgid "Sort by PJSIP status (PJSIP / No PJSIP)"
+msgstr "按 PJSIP 状态排序（PJSIP / 无 PJSIP）"
+
+msgid "SSID"
+msgstr "SSID"
+
+msgid "Structured provisioning events only; passwords are never logged. If provisioning/.provision_verbose exists, Apache mode is used when this setting is Off."
+msgstr "仅结构化供应事件；密码永远不会被记录。如果 Provisioning/.provision_verbose 存在，则当此设置为“关闭”时，将使用 Apache 模式。"
+
+msgid "TCP"
+msgstr "传输控制协议"
+
+msgid "Template name"
+msgstr "模板名称"
+
+msgid "Template names must be unique."
+msgstr "模板名称必须是唯一的。"
+
+msgid "Templates are configured under General Settings - Line Key Templates. Applying replaces current Line Keys on this form (save the phone to persist)."
+msgstr "模板在常规设置 - 线路键模板下配置。应用将替换此表单上的当前线路键（保存电话以保留）。"
+
+msgid "Time Settings"
+msgstr "时间设置"
+
+msgid "Time Zone"
+msgstr "时区"
+
+msgid "TKIP"
+msgstr "TKIP"
+
+msgid "TKIP+AES"
+msgstr "TKIP+AES"
+
+msgid "TLS"
+msgstr "传输层安全协议"
+
+msgid "Transport"
+msgstr "运输"
+
+msgid "Transport protocol"
+msgstr "传输协议"
+
+msgid "Trust All Certificates"
+msgstr "信任所有证书"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "UDP"
+msgstr "UDP协议"
+
+msgid "Use the tabs below to open Phones, Networks, or General Settings."
+msgstr "使用下面的选项卡打开电话、网络或常规设置。"
+
+msgid "Used when mode is \\\"Dedicated log file\\\". Path must stay under /var/log/. On Sangoma FreePBX (rpm) use /var/log/httpd/; on Debian typically /var/log/apache2/. Logrotate: deployment/logrotate-zerotouchsip-provision -> /etc/logrotate.d/zerotouchsip-provision"
+msgstr "当模式为“专用日志文件”时使用。路径必须位于 /var/log/ 下。在 Sangoma FreePBX (rpm) 上使用 /var/log/httpd/；在 Debian 上通常是 /var/log/apache2/。 Logrotate：部署/logrotate-zerotouchsip-provision -> /etc/logrotate.d/zerotouchsip-provision"
+
+msgid "user"
+msgstr "user"
+
+msgid "User name"
+msgstr "用户名"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Users"
+msgstr "用户"
+
+msgid "Value/Extension"
+msgstr "值/扩展"
+
+msgid "Vendor"
+msgstr "小贩"
+
+msgid "Web Authentication Password"
+msgstr "网页认证密码"
+
+msgid "Web UI password for \\\"%s\\\" is too long (max %d for Yealink provisioning)."
+msgstr "“%s”的 Web UI 密码太长（Yealink 配置最多为 %d）。"
+
+msgid "Web UI password is required for user \\\"%s\\\"."
+msgstr "用户“%s”需要 Web UI 密码。"
+
+msgid "Web UI username \\\"%s\\\" is too long (max %d)."
+msgstr "Web UI 用户名“%s”太长（最多 %d）。"
+
+msgid "Wi-Fi"
+msgstr "无线上网"
+
+msgid "Wi-Fi password for \\\"%s\\\" is too long (max 63)."
+msgstr "“%s”的 Wi-Fi 密码太长（最多 63）。"
+
+msgid "Wi-Fi password is required for secured profile \\\"%s\\\"."
+msgstr "安全配置文件“%s”需要 Wi-Fi 密码。"
+
+msgid "Wi-Fi profile"
+msgstr "Wi-Fi 配置文件"
+
+msgid "Wi-Fi Profiles"
+msgstr "Wi-Fi 配置文件"
+
+msgid "Wi-Fi SSID \\\"%s\\\" is too long (max 32)."
+msgstr "Wi-Fi SSID“%s”太长（最多 32）。"
+
+msgid "Wi-Fi username is required for 802.1x profile \\\"%s\\\"."
+msgstr "802.1x 配置文件“%s”需要 Wi-Fi 用户名。"
+
+msgid "WPA/WPA2-PSK"
+msgstr "WPA/WPA2-PSK"
+
+msgid "Yealink"
+msgstr "Yealink"
+
+msgid "Yes (Accept all)"
+msgstr "是（全部接受）"
+
+msgid "ZeroTouchSIP"
+msgstr "ZeroTouchSIP"
+
+msgid "— select SSID —"
+msgstr "— 选择 SSID —"

@@ -1,0 +1,64 @@
+name: ZeroTouchSIP Release Checks
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          tools: none
+
+      - name: PHP syntax check
+        run: |
+          set -euo pipefail
+          find . -type f -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l
+
+      - name: Validate module.xml
+        run: |
+          set -euo pipefail
+          php -r 'libxml_use_internal_errors(true); $ok=simplexml_load_file("module.xml"); if(!$ok){foreach(libxml_get_errors() as $e){fwrite(STDERR,$e->message);} exit(1);}'
+
+      - name: Check required i18n catalogs
+        run: |
+          set -euo pipefail
+          for lang in en_US ru_RU zh_CN; do
+            test -f "i18n/${lang}/LC_MESSAGES/zerotouchsip.po"
+            test -f "i18n/${lang}/LC_MESSAGES/zerotouchsip.mo"
+          done
+          test -f i18n/zerotouchsip.pot
+
+      - name: Compile gettext catalogs when msgfmt is available
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y gettext
+          for po in i18n/*/LC_MESSAGES/zerotouchsip.po; do
+            msgfmt -c -o "${po%.po}.mo" "$po"
+          done
+
+      - name: Guard obsolete provisioning URL segment in UI
+        run: |
+          set -euo pipefail
+          ! grep -R --line-number --fixed-strings '/yealink' views || {
+            echo "Do not use obsolete /yealink URLs in admin views." >&2
+            exit 1
+          }
+
+      - name: Guard against hardcoded secrets pattern
+        run: |
+          set -euo pipefail
+          ! grep -RInE '(password|secret)\s*=\s*["'\''][^"'\'']{8,}["'\'']' --include='*.php' --exclude-dir=i18n . || {
+            echo "Possible hardcoded secret in PHP." >&2
+            exit 1
+          }
