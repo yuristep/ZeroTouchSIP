@@ -13,6 +13,9 @@ use FreePBX_Helpers;
  */
 class Zerotouchsip extends FreePBX_Helpers implements BMO
 {
+	/** @var string mirrors Zts_ModuleIdentifiers::RAWNAME (avoid namespace autoload in BMO hooks) */
+	private const RAWNAME = 'zerotouchsip';
+
 	public function __construct($freepbx = null)
 	{
 		if ($freepbx === null)
@@ -20,7 +23,22 @@ class Zerotouchsip extends FreePBX_Helpers implements BMO
 			throw new \RuntimeException('Not given a FreePBX Object');
 		}
 		$this->FreePBX = $freepbx;
-		require_once __DIR__ . '/includes/bootstrap.php';
+		$this->loadBootstrap();
+	}
+
+	/**
+	 * Load legacy Zts_* classes (global namespace) for BMO hooks.
+	 */
+	private function loadBootstrap()
+	{
+		if (!class_exists('Zts_ModuleIdentifiers', false))
+		{
+			if (!defined('FREEPBX_BOOTSTRAP_SKIP_AUTH'))
+			{
+				define('FREEPBX_BOOTSTRAP_SKIP_AUTH', true);
+			}
+			require_once __DIR__ . '/includes/bootstrap.php';
+		}
 	}
 
 	public function install()
@@ -64,7 +82,7 @@ class Zerotouchsip extends FreePBX_Helpers implements BMO
 	 */
 	public function getActionBar($request)
 	{
-		if (!isset($request['display']) || $request['display'] !== \Zts_ModuleIdentifiers::RAWNAME)
+		if (!isset($request['display']) || $request['display'] !== self::RAWNAME)
 		{
 			return array();
 		}
@@ -92,6 +110,8 @@ class Zerotouchsip extends FreePBX_Helpers implements BMO
 	{
 		global $currentcomponent;
 		global $db;
+
+		$this->loadBootstrap();
 
 		if (!isset($_REQUEST['extdisplay']) || $_REQUEST['extdisplay'] === '' || $_REQUEST['extdisplay'] === false)
 		{
