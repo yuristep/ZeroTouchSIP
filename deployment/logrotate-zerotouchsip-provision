@@ -1,0 +1,12 @@
+# ZeroTouchSIP provisioning HTTP trace (optional; path from General Settings).
+/var/log/httpd/zerotouchsip-provision.log
+/var/log/apache2/zerotouchsip-provision.log
+{
+    daily
+    rotate 14
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 0640 asterisk asterisk
+}

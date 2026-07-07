@@ -1,0 +1,1283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR YURI STEP. — Net Production —
+# This file is distributed under the same license as the zerotouchsip package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: zerotouchsip\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-06 12:39:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.inc.php
+msgid " — no Avail contact: %s"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC) GMT,Torshavn,Dublin,Lisboa,Porto,Funchal,Las Palmas,London,Morocco"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+1) Tirane,Vienna,Brussels,Caicos,Chad,Madrid,Zagreb,Prague,Kopenhagen,Paris,Berlin,Budapest,Rome,Luxembourg,Skopje,Amsterdam,Windhoek,Warsaw,Stockholm"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+10) Sydney,Melbourne,Canberra,Brisbane,Hobart,Vladivostok"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+10:30) Lord Howe Islands"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+11) Noumea,Srednekolymsk Time"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+11:30) Norfolk Island"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+12) Wellington,Auckland,Kamchatka Time"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+12:45) Chatham Islands"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+13) Nukualofa,Apia"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+13:30) Chatham Islands"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+14) Kiribati"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+2) Tallinn,Helsinki,Gaza,Athens,Tel Aviv,Amman,Riga,Beirut,Kishinev,Kaliningrad,Bucharest,Damascus,Kyiv,Odessa,South Africa"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+3) East Africa Time,Baghdad,Moscow,Ankara,Istanbul"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+3:30) Tehran"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+4) Yerevan,Baku,Tbilisi,Aktau,Samara,Dubai"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+4:30) Kabul"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+5) Aqtobe,Bishkek,Islamabad,Chelyabinsk"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+5:30) Calcutta,Sri Jayawardenepura"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+5:45) Katmandu"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+6) Astana,Almaty,Omsk"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+6:30) Naypyitaw"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+7) Krasnoyarsk,Novosibirsk,Bangkok"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+8) Beijing,Taipei,Singapore,Perth,Irkutsk, Ulan-Ude"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+8:45) Eucla"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+9) Seoul,Tokyo,Yakutsk, Chita"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC+9:30) Adelaide,Darwin"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-1) Azores,Cape Verde Is"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-10) Hawaii-Aleutian,Alaska-Aleutian"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-11) American Samoa"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-12) International Date Line West"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-2) no DST,Mid-Atlantic,Greenland"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-2:30) Newfoundland and Labrador"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-3) Nuuk,Buenos Aires,no DST,DST"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-3:30) New Foundland"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-4) Halifax,Saint John,Santiago,Asuncion,Bermuda,Falkland Islands,Trinidad Tobago"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-4:30) Caracas"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-5) Nassau,Montreal,Ottawa,Quebec,Havana,Eastern Time"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-6) Manitoba,Easter Islands,Mexico City,Acapulco,Central Time"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-7) Edmonton,Calgary,Mazatlan,Chihuahua,Mountain Time,United States-MST no DST"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-8) Vancouver,Whitehorse,Tijuana,Mexicali,Pacific Time"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-9) Alaska Time"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "(UTC-9:30) French Polynesia"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "*8"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "0"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "12 hex digits, no separators (e.g., 805EC0123456)"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "192.168.1.0/24"
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "802.1x"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "802.1X only"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks.php
+#: views/zts_networks_edit.php
+#: views/zts_phones.php
+#: views/partials/zts_linekeys_editor.php
+msgid "Actions"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Add Keys"
+msgstr ""
+
+#: views/zts_networks.php
+#: views/zts_networks_edit.php
+msgid "Add Network"
+msgstr ""
+
+#: views/zts_phones.php
+#: views/zts_phones_edit.php
+msgid "Add Phone"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Add Profile"
+msgstr ""
+
+#: views/zts_general.php
+#: views/partials/zts_linekey_templates_panel.php
+msgid "Add template"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "Add User"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "admin"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "Administrators"
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "AES (CCMP)"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Apache PHP error log (JSON lines, tag [ZeroTouchSIP Prov])"
+msgstr ""
+
+#: includes/Zts/Service/PhoneLinekeyTemplateBulkService.php
+msgid "Applied Line Key template \"%s\" to %d phone(s). Save/Notify is not triggered automatically; use Notify if you want phones to fetch the new config now."
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Apply"
+msgstr ""
+
+#: includes/Zts/I18n.php
+msgid "Apply Line Key template \"%template%\" to %count% selected phone(s)? Existing Line Keys on those phones will be replaced."
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Apply Line Keys"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Apply name to tab"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Apply selected template to checked phones"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Apply template"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Apply to Line Keys"
+msgstr ""
+
+#: includes/Zts/I18n.php
+msgid "Are you sure you want to delete the selected network(s)?"
+msgstr ""
+
+#: includes/Zts/I18n.php
+msgid "Are you sure you want to delete the selected phone(s)?"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Assign FreePBX devices to phone lines (Fanvil H2U/H5/H6W/W611W: up to 2 SIP lines)."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Assign FreePBX devices to phone lines (up to 16 lines supported)"
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Asterisk Manager (AMI) is not available to PHP — SIP NOTIFY was not sent."
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Asterisk Manager (AMI) is not available to PHP — SIP NOTIFY was not sent. Check Manager access for this admin user."
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Asterisk Manager (AMI) is not available — extra SIP NOTIFY was not sent."
+msgstr ""
+
+#: includes/Zts/Service/LinekeyTemplateService.php
+msgid "At least one named Line Key template is required."
+msgstr ""
+
+#: views/zts_general.php
+msgid "At least one template is required."
+msgstr ""
+
+#: includes/Zts/Service/GeneralPhoneSecurityService.php
+msgid "Auto"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Auto Detect"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Auto or Fanvil for Fanvil H2U/H5/H6W/W611W. Do not choose Yealink for those models - the server would send Yealink text format and the phone will ignore it; Yealink is overridden to Fanvil for H-series models only when this mistake is made."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Auto-Provision Repeat Interval (minutes)"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Auto-Provisioning"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+#: includes/Zts/Support/YealinkTimeZoneOptions.php
+msgid "Automatic"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Ban after invalid hash attempts"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Ban duration (seconds)"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+#: views/zts_phones_edit.php
+msgid "Cancel"
+msgstr ""
+
+#: includes/Zts/Validation/NetworkEditValidator.php
+msgid "CIDR must include network and prefix (e.g. 192.168.1.0/24)."
+msgstr ""
+
+#: views/zts_networks.php
+#: views/zts_networks_edit.php
+msgid "CIDR Range"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Codec"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Codec Settings"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Codecs enabled in FreePBX General SIP Settings (Settings → SIP Settings → Codecs). Set phone priority per codec (0 = disabled on handset, 1–16 = lower number is higher priority). Yealink and Fanvil values are applied during provisioning."
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Config Version"
+msgstr ""
+
+#: includes/Zts/Validation/NetworkEditValidator.php
+msgid "Config Version must look like 2.0004 (major.minor, Fanvil Current Config Version)."
+msgstr ""
+
+#: includes/Zts/ModuleBranding.php
+msgid "Configure and manage Yealink/Fanvil SIP phones on your FreePBX system."
+msgstr ""
+
+#: views/zts_networks.php
+msgid "Configure network-specific settings by IP range (CIDR notation). Settings are applied based on the phone's IP address during provisioning."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Configure programmable keys for BLF monitoring, speed dial, etc."
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Create Line Key Templates in General Settings first."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Create named Line Key templates here for BLF and speed dial layouts. Each tab is a separate template: rename it, configure the keys, then save settings. On Edit Phone, select a template and click Apply to Line Keys to copy it into that phone; the phone is updated only after you save the phone form."
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "Daylight Saving Time"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Dedicated log file (append, one JSON line per event)"
+msgstr ""
+
+#: includes/Zts/Service/LinekeyTemplateService.php
+msgid "Default"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Default Backlight Timeout (seconds)"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Default display and provisioning behavior for newly discovered phones. Trust certificates controls whether phones accept self-signed HTTPS certificates during provisioning."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Default Language"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Default Network"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Default NTP, time zone, and daylight-saving values for new phones. Yealink and Fanvil provisioning values are mapped automatically when you save."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Default Phone Settings"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Default phone web interface users for newly discovered phones. Yealink uses security.user_name.* / security.user_password; Fanvil uses MMI Account settings unless a Network has custom users. The first Administrators row defines the default profile for auto-registered phones."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Default Time Settings"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Defaults used when a new phone is discovered or when an inventory entry has no SIP line bindings yet. Saving these defaults does not overwrite already configured phones."
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Define up to five Wi-Fi profiles (Networks Edit). Phone Edit selects which SSID to push. Fanvil W611/W611W: Secure Mode 0=None, 1=WPA/WPA2-PSK, 2=802.1x, 3=FT-PSK; Encryption 1=TKIP, 2=AES (CCMP), 3=TKIP+AES."
+msgstr ""
+
+#: views/zts_networks.php
+#: views/zts_phones.php
+#: views/partials/zts_linekeys_editor.php
+msgid "Delete"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Delete template"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Delete this template?"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Descriptive name; after a line is assigned, saved as {extension}-{Model}-{last 4 MAC chars} (e.g. 6101-T33-A1B2) unless you change it manually. Used as DHCP Hostname in provisioning."
+msgstr ""
+
+#: includes/Zts/Validation/DeviceEditValidator.php
+msgid "Device name is required."
+msgstr ""
+
+#: views/zts_general.php
+msgid "DHCP setup: publish this URL to phones as their provisioning server, usually with DHCP Option 66 (or the vendor-specific provisioning URL option used in your phone VLAN). Phones should receive this URL and then request their MAC-based config from ZeroTouchSIP."
+msgstr ""
+
+#: functions.inc.php
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+#: includes/Zts/Support/YealinkTimeZoneOptions.php
+msgid "Disabled"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Display label"
+msgstr ""
+
+#: views/zts_general.php
+#: includes/Zts/Service/LinekeyTemplateService.php
+msgid "Duplicate template name: %s"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "e.g. 2100"
+msgstr ""
+
+#: views/zts_networks.php
+#: views/zts_phones.php
+#: views/partials/zts_linekeys_editor.php
+msgid "Edit"
+msgstr ""
+
+#: functions.inc.php
+msgid "Edit in %s: %s (%s)"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Edit Network"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Edit Phone"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Enable Hotline"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Enable Wi-Fi"
+msgstr ""
+
+#: includes/Zts/Service/DeviceWifiSettingsService.php
+msgid "Enable Wi-Fi provisioning when pushing settings to the phone."
+msgstr ""
+
+#: functions.inc.php
+#: includes/Zts/Support/YealinkTimeZoneOptions.php
+msgid "Enabled"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Encryption"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Ext"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Extension"
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Extension %s (Fanvil): sent SIP NOTIFY (check-sync + reboot)."
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Extension %s (Fanvil): sent SIP NOTIFY (check-sync only)."
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Extension %s: extra SIP check-sync (HTTP was %s)."
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Extension %s: sent SIP NOTIFY (check-sync only)."
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Extension %s: sent SIP NOTIFY (reboot + check-sync)."
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Extension or number"
+msgstr ""
+
+#: views/zts_phones_edit.php
+#: includes/Zts/Service/GeneralPhoneSecurityService.php
+#: includes/Zts/Service/VendorDisplayService.php
+msgid "Fanvil"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Fanvil defaults: 224.0.1.75, 5060, UDP, 1 hour."
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Fanvil id %s (%s): HTTP Autoprovision %s"
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Fanvil id %s: no Last IP — HTTP skipped"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Fanvil: first line of MAC .cfg (Current Config Version on phone). Increase after template changes so handsets re-apply config. HTTP(S) provisioning: leave Username/Password blank to disable authentication."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Fanvil: SIP PnP enabled in provisioning (AUTOUPDATE)"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Firmware"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Firmware:"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "FreePBX Device"
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "FreePBX device id %s: cannot resolve extension (Fanvil SIP NOTIFY skipped)."
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "FreePBX device id %s: cannot resolve extension for SIP NOTIFY — check the extension exists and is linked to the line."
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "FT-PSK"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "General Information"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_nav_tabs.php
+msgid "General Settings"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Hotline"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Hotline Delay"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Hotline delay: 0-30 seconds (WarmLine time)."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Hotline Number"
+msgstr ""
+
+#: views/zts_general.php
+msgid "How often phones should check for config updates (default: 1440 = 24 hours)"
+msgstr ""
+
+#: includes/Zts/Validation/NetworkEditValidator.php
+msgid "Invalid CIDR."
+msgstr ""
+
+#: includes/Zts/Validation/DeviceEditValidator.php
+msgid "Invalid provisioning profile."
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "IP range in CIDR notation (e.g., 192.168.1.0/24)"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Key"
+msgstr ""
+
+#: views/zts_networks_edit.php
+#: views/zts_phones_edit.php
+#: views/partials/zts_linekeys_editor.php
+msgid "Label"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Last Config"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Last Config:"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Last IP"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Last IP:"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "leave blank to keep"
+msgstr ""
+
+#: views/zts_phones_edit.php
+#: views/partials/zts_linekeys_editor.php
+msgid "Line"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Line Configuration"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Line Key Template"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Line Key Templates (BLF / Speed Dial)"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Line Keys (BLF / Speed Dial)"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Lines"
+msgstr ""
+
+#: views/zts_phones.php
+#: views/zts_phones_edit.php
+msgid "MAC Address"
+msgstr ""
+
+#: includes/Zts/Validation/DeviceEditValidator.php
+msgid "MAC address must be 12 hexadecimal digits."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "MAC address without colons or dashes"
+msgstr ""
+
+#: includes/Zts/Support/FanvilTimeZoneOptions.php
+msgid "Manual"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Maximum templates reached."
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Model"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Model:"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Multicast address (server)"
+msgstr ""
+
+#: views/zts_networks.php
+#: views/zts_phones.php
+msgid "Name"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "NAT Keepalive Interval (seconds)"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "NAT keepalive: 0 = disabled"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Network Information"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Network Name"
+msgstr ""
+
+#: includes/Zts/Validation/NetworkEditValidator.php
+msgid "Network name is required."
+msgstr ""
+
+#: views/zts_nav_tabs.php
+#: views/zts_networks.php
+msgid "Networks"
+msgstr ""
+
+#: includes/Zts/Service/LinekeyTemplateService.php
+msgid "New"
+msgstr ""
+
+#: views/zts_general.php
+msgid "No (Validate certificates)"
+msgstr ""
+
+#: functions.inc.php
+msgid "No extension on lines — PJSIP status N/A"
+msgstr ""
+
+#: includes/Zts/Service/PhoneLinekeyTemplateBulkService.php
+msgid "No Line Key template selected."
+msgstr ""
+
+#: views/zts_networks.php
+msgid "No networks configured yet."
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "No notify actions were recorded (no lines / no AMI / nothing to do)."
+msgstr ""
+
+#: views/zts_phones.php
+msgid "No phones configured yet."
+msgstr ""
+
+#: includes/Zts/Service/PhoneLinekeyTemplateBulkService.php
+msgid "No phones selected."
+msgstr ""
+
+#: functions.inc.php
+msgid "No PJSIP Avail contact for: %s"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "No Wi-Fi profiles on this network. Add profiles in Networks Edit first."
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "None"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Notify"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Notify (soft, no reboot)"
+msgstr ""
+
+#: views/zts_general.php
+msgid "NOTIFY body: {base}/{MAC}.cfg. Leave empty to use this server provisioning URL."
+msgstr ""
+
+#: views/zts_general.php
+msgid "NOTIFY contains pnp.php?mac=...&hash=... where hash is a one-time HMAC-SHA256 token. Invalid hash attempts can ban the client IP."
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "NTP Server 1"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "NTP Server 2"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Off (no structured provisioning trace)"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Open phone web UI (%s)"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Optional custom label"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Password"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Per-SIP-line hotline / warm line (Fanvil). Shown in config as SIP1/SIP2 Hotline Num, Enable Hotline, WarmLine Time."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Phone"
+msgstr ""
+
+#: includes/Zts/Service/NotifyCheckConfigService.php
+msgid "Phone inventory id %s: no extension line is assigned — open Edit Phone, bind a FreePBX extension, then Notify again."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Phone Name"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Phone Security"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Phone Web Interface Users"
+msgstr ""
+
+#: views/zts_nav_tabs.php
+msgid "Phones"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Pickup"
+msgstr ""
+
+#: functions.inc.php
+msgid "PJSIP Avail at last device IP (%s), no Avail for extensions: %s"
+msgstr ""
+
+#: functions.inc.php
+msgid "PJSIP Avail contact at last device IP: %s"
+msgstr ""
+
+#: functions.inc.php
+msgid "PJSIP Avail: %s"
+msgstr ""
+
+#: functions.inc.php
+msgid "PJSIP status unavailable (AMI not connected)"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Plain text, FreePBX patterns (X Z N .), or regexp: /pattern/ or re:pattern"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Priority"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "Privilege"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Profile URL base"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Protocol"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Provisioning diagnostics"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Provisioning log file path"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Provisioning log mode"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Provisioning network: %s (matched by last IP). Profiles are defined under Networks Edit. When Push is off, Fanvil W611 keeps locally configured Wi-Fi."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Provisioning Profile"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Provisioning Settings"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Provisioning URL:"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Push profile to phone"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Pushed in provisioning for phones in this network: Fanvil &lt;MMI CONFIG MODULE&gt; / AccountN Name|Password|Level; Yealink security.user_name.* and security.user_password (login:password). Administrators map to admin, Users to user. If several networks match, the narrowest CIDR (/32) wins. Empty username skips a row; if no rows are saved, Yealink uses General Settings passwords."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Refresh interval (hours, 0–99)"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Registration Expires (seconds)"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "Remove"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Rename the template \"%s\" before adding another."
+msgstr ""
+
+#: includes/Zts/Service/LinekeyTemplateService.php
+msgid "Rename the template \"%s\" to a unique name before saving or adding another template."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Responds to SUBSCRIBE; only MACs registered in the phone list. Requires UDP 5060 multicast on LAN interfaces."
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Result"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Run PnP listener on PBX (zerotouchsip/bin/sip-pnp-listen.php, systemd)"
+msgstr ""
+
+#: views/zts_networks_edit.php
+#: views/zts_phones_edit.php
+msgid "Save"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Save Settings"
+msgstr ""
+
+#: views/zts_networks.php
+msgid "Search"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Search text or dial pattern (e.g. 6[123][01][0-9], 6XX)"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Secure Mode"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Secure one-time PnP URLs (?mac=...&hash=...)"
+msgstr ""
+
+#: includes/Zts/Service/DeviceWifiSettingsService.php
+msgid "Select a Wi-Fi profile (SSID) from the provisioning network."
+msgstr ""
+
+#: views/zts_networks.php
+#: views/zts_phones.php
+#: views/partials/zts_linekeys_editor.php
+msgid "Select all"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Select Line Key Template"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Select phones, choose a template, then apply it to replace Line Keys on those phones."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Select template"
+msgstr ""
+
+#: includes/Zts/Service/PhoneLinekeyTemplateBulkService.php
+msgid "Selected Line Key template was not found."
+msgstr ""
+
+#: includes/Zts/Service/DeviceWifiSettingsService.php
+msgid "Selected Wi-Fi profile is not defined on the provisioning network."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Server port"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+#: includes/Zts/I18n.php
+msgid "Show password"
+msgstr ""
+
+#: views/zts_general.php
+msgid "SIP Plug and Play (PnP)"
+msgstr ""
+
+#: views/zts_general.php
+msgid "SIP PnP helps supported phones discover their provisioning URL automatically. Phones send a multicast SUBSCRIBE (RFC 6080 ua-profile), and the PBX replies with a NOTIFY that points the phone to its ZeroTouchSIP config URL. Fanvil phones also receive matching AUTOUPDATE PNP settings in generated configs."
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "SIP Server Address"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "SIP Server Port"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "SIP Server Settings"
+msgstr ""
+
+#: views/zts_networks.php
+#: views/zts_phones.php
+msgid "Sort"
+msgstr ""
+
+#: views/zts_phones.php
+msgid "Sort by PJSIP status (PJSIP / No PJSIP)"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "SSID"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Structured provisioning events only; passwords are never logged. If provisioning/.provision_verbose exists, Apache mode is used when this setting is Off."
+msgstr ""
+
+#: views/zts_general.php
+msgid "TCP"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Template name"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Template names must be unique."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Templates are configured under General Settings - Line Key Templates. Applying replaces current Line Keys on this form (save the phone to persist)."
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Time Settings"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "Time Zone"
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "TKIP"
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "TKIP+AES"
+msgstr ""
+
+#: views/zts_general.php
+msgid "TLS"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Transport"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Transport protocol"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Trust All Certificates"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Type"
+msgstr ""
+
+#: views/zts_general.php
+msgid "UDP"
+msgstr ""
+
+#: includes/Zts/ModuleBranding.php
+msgid "Use the tabs below to open Phones, Networks, or General Settings."
+msgstr ""
+
+#: views/zts_general.php
+msgid "Used when mode is \"Dedicated log file\". Path must stay under /var/log/. On Sangoma FreePBX (rpm) use /var/log/httpd/; on Debian typically /var/log/apache2/. Logrotate: deployment/logrotate-zerotouchsip-provision -> /etc/logrotate.d/zerotouchsip-provision"
+msgstr ""
+
+#: views/zts_general.php
+msgid "user"
+msgstr ""
+
+#: views/zts_general.php
+msgid "User name"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Username"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "Users"
+msgstr ""
+
+#: views/partials/zts_linekeys_editor.php
+msgid "Value/Extension"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_phones.php
+msgid "Vendor"
+msgstr ""
+
+#: views/zts_general.php
+#: views/zts_networks_edit.php
+msgid "Web Authentication Password"
+msgstr ""
+
+#: includes/Zts/Service/NetworkMmiAccountService.php
+msgid "Web UI password for \"%s\" is too long (max %d for Yealink provisioning)."
+msgstr ""
+
+#: includes/Zts/Service/NetworkMmiAccountService.php
+msgid "Web UI password is required for user \"%s\"."
+msgstr ""
+
+#: includes/Zts/Service/NetworkMmiAccountService.php
+msgid "Web UI username \"%s\" is too long (max %d)."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Wi-Fi"
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "Wi-Fi password for \"%s\" is too long (max 63)."
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "Wi-Fi password is required for secured profile \"%s\"."
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "Wi-Fi profile"
+msgstr ""
+
+#: views/zts_networks_edit.php
+msgid "Wi-Fi Profiles"
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "Wi-Fi SSID \"%s\" is too long (max 32)."
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "Wi-Fi username is required for 802.1x profile \"%s\"."
+msgstr ""
+
+#: includes/Zts/Service/NetworkWifiProfileService.php
+msgid "WPA/WPA2-PSK"
+msgstr ""
+
+#: views/zts_phones_edit.php
+#: includes/Zts/Service/GeneralPhoneSecurityService.php
+#: includes/Zts/Service/VendorDisplayService.php
+msgid "Yealink"
+msgstr ""
+
+#: views/zts_general.php
+msgid "Yes (Accept all)"
+msgstr ""
+
+#: includes/Zts/ModuleBranding.php
+msgid "ZeroTouchSIP"
+msgstr ""
+
+#: views/zts_phones_edit.php
+msgid "— select SSID —"
+msgstr ""

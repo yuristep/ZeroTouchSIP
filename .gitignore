@@ -1,0 +1,61 @@
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.credentials
+secrets/
+
+# Logs and dumps
+*.log
+*.sql
+*.sql.gz
+*.tar
+*.tgz
+*.zip
+
+# Python / tooling caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# IDE / editor
+.idea/
+.vscode/
+.cursor/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Provisioning lab traces and runtime (never commit)
+**/.fanvil_boot_trace
+**/.provision_verbose
+**/configs/*.cfg
+**/logs/*.log
+
+# Local deploy scratch
+.deploy_*/
+
+# Screenshot pipeline: raw captures contain production data
+docs/screenshots/captures/
+docs/screenshots/redacted/
+
+# --- Internal-only (monorepo / lab; not published to public GitHub) ---
+# Public GitHub: only README.md at repository root
+**/*.md
+!/README.md
+!/docs/README_ru_RU.md
+!/docs/README_zh_CN.md
+
+provisioning/deploy-to-freepbx-webroot.sh
+provisioning/fanvil-reboot-provision-test.sh

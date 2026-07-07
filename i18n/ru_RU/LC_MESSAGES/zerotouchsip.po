@@ -1,0 +1,939 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zerotouchsip\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language-Team: Russian\n"
+
+msgid " — no Avail contact: %s"
+msgstr " — нет контакта Avail: %s"
+
+msgid "(UTC) GMT,Torshavn,Dublin,Lisboa,Porto,Funchal,Las Palmas,London,Morocco"
+msgstr "(UTC) GMT / Лондон"
+
+msgid "(UTC+1) Tirane,Vienna,Brussels,Caicos,Chad,Madrid,Zagreb,Prague,Kopenhagen,Paris,Berlin,Budapest,Rome,Luxembourg,Skopje,Amsterdam,Windhoek,Warsaw,Stockholm"
+msgstr "(UTC+1) Центральная Европа"
+
+msgid "(UTC+10) Sydney,Melbourne,Canberra,Brisbane,Hobart,Vladivostok"
+msgstr "(UTC+10) Владивосток"
+
+msgid "(UTC+10:30) Lord Howe Islands"
+msgstr "(UTC+10:30) о-ва Лорд-Хау"
+
+msgid "(UTC+11) Noumea,Srednekolymsk Time"
+msgstr "(UTC+11) Среднеколымск"
+
+msgid "(UTC+11:30) Norfolk Island"
+msgstr "(UTC+11:30) о-ва Норфолк"
+
+msgid "(UTC+12) Wellington,Auckland,Kamchatka Time"
+msgstr "(UTC+12) Камчатка"
+
+msgid "(UTC+12:45) Chatham Islands"
+msgstr "(UTC+12:45) о-ва Чатем"
+
+msgid "(UTC+13) Nukualofa,Apia"
+msgstr "(UTC+13) Тонга"
+
+msgid "(UTC+13:30) Chatham Islands"
+msgstr "(UTC+13:30) о-ва Чатем"
+
+msgid "(UTC+14) Kiribati"
+msgstr "(UTC+14) Кирибати"
+
+msgid "(UTC+2) Tallinn,Helsinki,Gaza,Athens,Tel Aviv,Amman,Riga,Beirut,Kishinev,Kaliningrad,Bucharest,Damascus,Kyiv,Odessa,South Africa"
+msgstr "(UTC+2) Киев, Хельсинки"
+
+msgid "(UTC+3) East Africa Time,Baghdad,Moscow,Ankara,Istanbul"
+msgstr "(UTC+3) Москва"
+
+msgid "(UTC+3:30) Tehran"
+msgstr "(UTC+3:30) Тегеран"
+
+msgid "(UTC+4) Yerevan,Baku,Tbilisi,Aktau,Samara,Dubai"
+msgstr "(UTC+4) Самара, Дубай"
+
+msgid "(UTC+4:30) Kabul"
+msgstr "(UTC+4:30) Кабул"
+
+msgid "(UTC+5) Aqtobe,Bishkek,Islamabad,Chelyabinsk"
+msgstr "(UTC+5) Екатеринбург, Исламабад"
+
+msgid "(UTC+5:30) Calcutta,Sri Jayawardenepura"
+msgstr "(UTC+5:30) Индия"
+
+msgid "(UTC+5:45) Katmandu"
+msgstr "(UTC+5:45) Катманду"
+
+msgid "(UTC+6) Astana,Almaty,Omsk"
+msgstr "(UTC+6) Омск, Алматы"
+
+msgid "(UTC+6:30) Naypyitaw"
+msgstr "(UTC+6:30) Нейпьидо"
+
+msgid "(UTC+7) Krasnoyarsk,Novosibirsk,Bangkok"
+msgstr "(UTC+7) Красноярск, Новосибирск"
+
+msgid "(UTC+8) Beijing,Taipei,Singapore,Perth,Irkutsk, Ulan-Ude"
+msgstr "(UTC+8) Иркутск, Пекин"
+
+msgid "(UTC+8:45) Eucla"
+msgstr "(UTC+8:45) Эвкла"
+
+msgid "(UTC+9) Seoul,Tokyo,Yakutsk, Chita"
+msgstr "(UTC+9) Якутск, Токио"
+
+msgid "(UTC+9:30) Adelaide,Darwin"
+msgstr "(UTC+9:30) Аделаида"
+
+msgid "(UTC-1) Azores,Cape Verde Is"
+msgstr "(UTC-1) Азорские о-ва"
+
+msgid "(UTC-10) Hawaii-Aleutian,Alaska-Aleutian"
+msgstr "(UTC-10) Гавайи, Алеутские о-ва"
+
+msgid "(UTC-11) American Samoa"
+msgstr "(UTC-11) Американское Самоа"
+
+msgid "(UTC-12) International Date Line West"
+msgstr "(UTC-12) Линия перемены дат"
+
+msgid "(UTC-2) no DST,Mid-Atlantic,Greenland"
+msgstr "(UTC-2) Среднеатлантическое"
+
+msgid "(UTC-2:30) Newfoundland and Labrador"
+msgstr "(UTC-2:30) Ньюфаундленд"
+
+msgid "(UTC-3) Nuuk,Buenos Aires,no DST,DST"
+msgstr "(UTC-3) Буэнос-Айрес"
+
+msgid "(UTC-3:30) New Foundland"
+msgstr "(UTC-3:30) Ньюфаундленд"
+
+msgid "(UTC-4) Halifax,Saint John,Santiago,Asuncion,Bermuda,Falkland Islands,Trinidad Tobago"
+msgstr "(UTC-4) Атлантическое время"
+
+msgid "(UTC-4:30) Caracas"
+msgstr "(UTC-4:30) Каракас"
+
+msgid "(UTC-5) Nassau,Montreal,Ottawa,Quebec,Havana,Eastern Time"
+msgstr "(UTC-5) Восточное время"
+
+msgid "(UTC-6) Manitoba,Easter Islands,Mexico City,Acapulco,Central Time"
+msgstr "(UTC-6) Центральное время"
+
+msgid "(UTC-7) Edmonton,Calgary,Mazatlan,Chihuahua,Mountain Time,United States-MST no DST"
+msgstr "(UTC-7) Горное время"
+
+msgid "(UTC-8) Vancouver,Whitehorse,Tijuana,Mexicali,Pacific Time"
+msgstr "(UTC-8) Тихоокеанское время"
+
+msgid "(UTC-9) Alaska Time"
+msgstr "(UTC-9) Аляска"
+
+msgid "(UTC-9:30) French Polynesia"
+msgstr "(UTC-9:30) Французская Полинезия"
+
+msgid "*8"
+msgstr "*8"
+
+msgid "0"
+msgstr "0"
+
+msgid "12 hex digits, no separators (e.g., 805EC0123456)"
+msgstr "12 hex-символов без разделителей (напр. 805EC0123456)"
+
+msgid "192.168.1.0/24"
+msgstr "192.168.1.0/24"
+
+msgid "802.1x"
+msgstr "802.1x"
+
+msgid "802.1X only"
+msgstr "802.1X only"
+
+msgid "Actions"
+msgstr "Действия"
+
+msgid "Add Keys"
+msgstr "Add Keys"
+
+msgid "Add Network"
+msgstr "Добавить сеть"
+
+msgid "Add Phone"
+msgstr "Добавить телефон"
+
+msgid "Add Profile"
+msgstr "Add Profile"
+
+msgid "Add template"
+msgstr "Add template"
+
+msgid "Add User"
+msgstr "Добавить пользователя"
+
+msgid "admin"
+msgstr "admin"
+
+msgid "Administrators"
+msgstr "Администраторы"
+
+msgid "AES (CCMP)"
+msgstr "AES (CCMP)"
+
+msgid "Apache PHP error log (JSON lines, tag [ZeroTouchSIP Prov])"
+msgstr "Журнал ошибок Apache PHP (JSON, метка [ZeroTouchSIP Prov])"
+
+msgid "Applied Line Key template \\\"%s\\\" to %d phone(s). Save/Notify is not triggered automatically; use Notify if you want phones to fetch the new config now."
+msgstr "Applied Line Key template \\\"%s\\\" to %d phone(s). Save/Notify is not triggered automatically; use Notify if you want phones to fetch the new config now."
+
+msgid "Apply"
+msgstr "Apply"
+
+msgid "Apply Line Key template \\\"%template%\\\" to %count% selected phone(s)? Existing Line Keys on those phones will be replaced."
+msgstr "Apply Line Key template \\\"%template%\\\" to %count% selected phone(s)? Existing Line Keys on those phones will be replaced."
+
+msgid "Apply Line Keys"
+msgstr "Apply Line Keys"
+
+msgid "Apply name to tab"
+msgstr "Apply name to tab"
+
+msgid "Apply selected template to checked phones"
+msgstr "Apply selected template to checked phones"
+
+msgid "Apply template"
+msgstr "Apply template"
+
+msgid "Apply to Line Keys"
+msgstr "Apply to Line Keys"
+
+msgid "Are you sure you want to delete the selected network(s)?"
+msgstr "Удалить выбранные сети?"
+
+msgid "Are you sure you want to delete the selected phone(s)?"
+msgstr "Удалить выбранные телефоны?"
+
+msgid "Assign FreePBX devices to phone lines (Fanvil H2U/H5/H6W/W611W: up to 2 SIP lines)."
+msgstr "Assign FreePBX devices to phone lines (Fanvil H2U/H5/H6W/W611W: up to 2 SIP lines)."
+
+msgid "Assign FreePBX devices to phone lines (up to 16 lines supported)"
+msgstr "Привязка устройств FreePBX к линиям (до 16 линий)"
+
+msgid "Asterisk Manager (AMI) is not available to PHP — SIP NOTIFY was not sent."
+msgstr "Asterisk Manager (AMI) недоступен PHP — SIP NOTIFY не отправлен."
+
+msgid "Asterisk Manager (AMI) is not available to PHP — SIP NOTIFY was not sent. Check Manager access for this admin user."
+msgstr "AMI недоступен PHP — SIP NOTIFY не отправлен. Проверьте доступ Manager для этого пользователя."
+
+msgid "Asterisk Manager (AMI) is not available — extra SIP NOTIFY was not sent."
+msgstr "AMI недоступен — дополнительный SIP NOTIFY не отправлен."
+
+msgid "At least one named Line Key template is required."
+msgstr "At least one named Line Key template is required."
+
+msgid "At least one template is required."
+msgstr "At least one template is required."
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Auto Detect"
+msgstr "Автоопределение"
+
+msgid "Auto or Fanvil for Fanvil H2U/H5/H6W/W611W. Do not choose Yealink for those models - the server would send Yealink text format and the phone will ignore it; Yealink is overridden to Fanvil for H-series models only when this mistake is made."
+msgstr "Auto or Fanvil for Fanvil H2U/H5/H6W/W611W. Do not choose Yealink for those models - the server would send Yealink text format and the phone will ignore it; Yealink is overridden to Fanvil for H-series models only when this mistake is made."
+
+msgid "Auto-Provision Repeat Interval (minutes)"
+msgstr "Интервал повтора автопровижининга (минуты)"
+
+msgid "Auto-Provisioning"
+msgstr "Автопровижининг"
+
+msgid "Automatic"
+msgstr "Автоматически"
+
+msgid "Ban after invalid hash attempts"
+msgstr "Ban after invalid hash attempts"
+
+msgid "Ban duration (seconds)"
+msgstr "Ban duration (seconds)"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "CIDR must include network and prefix (e.g. 192.168.1.0/24)."
+msgstr "CIDR должен содержать сеть и префикс (напр. 192.168.1.0/24)."
+
+msgid "CIDR Range"
+msgstr "Диапазон CIDR"
+
+msgid "Codec"
+msgstr "Кодек"
+
+msgid "Codec Settings"
+msgstr "Настройки кодеков"
+
+msgid "Codecs enabled in FreePBX General SIP Settings (Settings → SIP Settings → Codecs). Set phone priority per codec (0 = disabled on handset, 1–16 = lower number is higher priority). Yealink and Fanvil values are applied during provisioning."
+msgstr "Кодеки из FreePBX → SIP Settings → Codecs. Приоритет 0 = выкл. на телефоне, 1–16 = чем меньше, тем выше. Применяется при провижининге."
+
+msgid "Config Version"
+msgstr "Config Version"
+
+msgid "Config Version must look like 2.0004 (major.minor, Fanvil Current Config Version)."
+msgstr "Config Version must look like 2.0004 (major.minor, Fanvil Current Config Version)."
+
+msgid "Configure and manage Yealink/Fanvil SIP phones on your FreePBX system."
+msgstr "Настройка и управление SIP-телефонами Yealink/Fanvil в FreePBX."
+
+msgid "Configure network-specific settings by IP range (CIDR notation). Settings are applied based on the phone's IP address during provisioning."
+msgstr "Настройки сети по диапазону IP (CIDR). Применяются по IP телефона при провижининге."
+
+msgid "Configure programmable keys for BLF monitoring, speed dial, etc."
+msgstr "Программируемые клавиши: BLF, быстрый набор и т.д."
+
+msgid "Create Line Key Templates in General Settings first."
+msgstr "Create Line Key Templates in General Settings first."
+
+msgid "Create named Line Key templates here for BLF and speed dial layouts. Each tab is a separate template: rename it, configure the keys, then save settings. On Edit Phone, select a template and click Apply to Line Keys to copy it into that phone; the phone is updated only after you save the phone form."
+msgstr "Create named Line Key templates here for BLF and speed dial layouts. Each tab is a separate template: rename it, configure the keys, then save settings. On Edit Phone, select a template and click Apply to Line Keys to copy it into that phone; the phone is updated only after you save the phone form."
+
+msgid "Daylight Saving Time"
+msgstr "Летнее время"
+
+msgid "Dedicated log file (append, one JSON line per event)"
+msgstr "Отдельный файл журнала (JSON, по строке на событие)"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Default Backlight Timeout (seconds)"
+msgstr "Таймаут подсветки по умолчанию (сек)"
+
+msgid "Default display and provisioning behavior for newly discovered phones. Trust certificates controls whether phones accept self-signed HTTPS certificates during provisioning."
+msgstr "Default display and provisioning behavior for newly discovered phones. Trust certificates controls whether phones accept self-signed HTTPS certificates during provisioning."
+
+msgid "Default Language"
+msgstr "Язык по умолчанию"
+
+msgid "Default Network"
+msgstr "Default Network"
+
+msgid "Default NTP, time zone, and daylight-saving values for new phones. Yealink and Fanvil provisioning values are mapped automatically when you save."
+msgstr "Default NTP, time zone, and daylight-saving values for new phones. Yealink and Fanvil provisioning values are mapped automatically when you save."
+
+msgid "Default Phone Settings"
+msgstr "Настройки телефона по умолчанию"
+
+msgid "Default phone web interface users for newly discovered phones. Yealink uses security.user_name.* / security.user_password; Fanvil uses MMI Account settings unless a Network has custom users. The first Administrators row defines the default profile for auto-registered phones."
+msgstr "Default phone web interface users for newly discovered phones. Yealink uses security.user_name.* / security.user_password; Fanvil uses MMI Account settings unless a Network has custom users. The first Administrators row defines the default profile for auto-registered phones."
+
+msgid "Default Time Settings"
+msgstr "Настройки времени по умолчанию"
+
+msgid "Defaults used when a new phone is discovered or when an inventory entry has no SIP line bindings yet. Saving these defaults does not overwrite already configured phones."
+msgstr "Defaults used when a new phone is discovered or when an inventory entry has no SIP line bindings yet. Saving these defaults does not overwrite already configured phones."
+
+msgid "Define up to five Wi-Fi profiles (Networks Edit). Phone Edit selects which SSID to push. Fanvil W611/W611W: Secure Mode 0=None, 1=WPA/WPA2-PSK, 2=802.1x, 3=FT-PSK; Encryption 1=TKIP, 2=AES (CCMP), 3=TKIP+AES."
+msgstr "Define up to five Wi-Fi profiles (Networks Edit). Phone Edit selects which SSID to push. Fanvil W611/W611W: Secure Mode 0=None, 1=WPA/WPA2-PSK, 2=802.1x, 3=FT-PSK; Encryption 1=TKIP, 2=AES (CCMP), 3=TKIP+AES."
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Delete template"
+msgstr "Delete template"
+
+msgid "Delete this template?"
+msgstr "Delete this template?"
+
+msgid "Descriptive name; after a line is assigned, saved as {extension}-{Model}-{last 4 MAC chars} (e.g. 6101-T33-A1B2) unless you change it manually. Used as DHCP Hostname in provisioning."
+msgstr "Descriptive name; after a line is assigned, saved as {extension}-{Model}-{last 4 MAC chars} (e.g. 6101-T33-A1B2) unless you change it manually. Used as DHCP Hostname in provisioning."
+
+msgid "Device name is required."
+msgstr "Укажите имя устройства."
+
+msgid "DHCP setup: publish this URL to phones as their provisioning server, usually with DHCP Option 66 (or the vendor-specific provisioning URL option used in your phone VLAN). Phones should receive this URL and then request their MAC-based config from ZeroTouchSIP."
+msgstr "DHCP setup: publish this URL to phones as their provisioning server, usually with DHCP Option 66 (or the vendor-specific provisioning URL option used in your phone VLAN). Phones should receive this URL and then request their MAC-based config from ZeroTouchSIP."
+
+msgid "Disabled"
+msgstr "Отключено"
+
+msgid "Display label"
+msgstr "Отображаемая метка"
+
+msgid "Duplicate template name: %s"
+msgstr "Duplicate template name: %s"
+
+msgid "e.g. 2100"
+msgstr "напр. 2100"
+
+msgid "Edit"
+msgstr "Изменить"
+
+msgid "Edit in %s: %s (%s)"
+msgstr "Изменить в %s: %s (%s)"
+
+msgid "Edit Network"
+msgstr "Редактировать сеть"
+
+msgid "Edit Phone"
+msgstr "Редактировать телефон"
+
+msgid "Enable Hotline"
+msgstr "Включить горячую линию"
+
+msgid "Enable Wi-Fi"
+msgstr "Enable Wi-Fi"
+
+msgid "Enable Wi-Fi provisioning when pushing settings to the phone."
+msgstr "Enable Wi-Fi provisioning when pushing settings to the phone."
+
+msgid "Enabled"
+msgstr "Включено"
+
+msgid "Encryption"
+msgstr "Encryption"
+
+msgid "Ext"
+msgstr "Доб."
+
+msgid "Extension"
+msgstr "Внутренний"
+
+msgid "Extension %s (Fanvil): sent SIP NOTIFY (check-sync + reboot)."
+msgstr "Extension %s (Fanvil): sent SIP NOTIFY (check-sync + reboot)."
+
+msgid "Extension %s (Fanvil): sent SIP NOTIFY (check-sync only)."
+msgstr "Extension %s (Fanvil): sent SIP NOTIFY (check-sync only)."
+
+msgid "Extension %s: extra SIP check-sync (HTTP was %s)."
+msgstr "Добавочный %s: доп. SIP check-sync (HTTP: %s)."
+
+msgid "Extension %s: sent SIP NOTIFY (check-sync only)."
+msgstr "Добавочный %s: SIP NOTIFY (только check-sync)."
+
+msgid "Extension %s: sent SIP NOTIFY (reboot + check-sync)."
+msgstr "Добавочный %s: SIP NOTIFY (reboot + check-sync)."
+
+msgid "Extension or number"
+msgstr "Добавочный или номер"
+
+msgid "Fanvil"
+msgstr "Fanvil"
+
+msgid "Fanvil defaults: 224.0.1.75, 5060, UDP, 1 hour."
+msgstr "Fanvil defaults: 224.0.1.75, 5060, UDP, 1 hour."
+
+msgid "Fanvil id %s (%s): HTTP Autoprovision %s"
+msgstr "Fanvil id %s (%s): HTTP Autoprovision %s"
+
+msgid "Fanvil id %s: no Last IP — HTTP skipped"
+msgstr "Fanvil id %s: нет Last IP — HTTP пропущен"
+
+msgid "Fanvil: first line of MAC .cfg (Current Config Version on phone). Increase after template changes so handsets re-apply config. HTTP(S) provisioning: leave Username/Password blank to disable authentication."
+msgstr "Fanvil: first line of MAC .cfg (Current Config Version on phone). Increase after template changes so handsets re-apply config. HTTP(S) provisioning: leave Username/Password blank to disable authentication."
+
+msgid "Fanvil: SIP PnP enabled in provisioning (AUTOUPDATE)"
+msgstr "Fanvil: SIP PnP enabled in provisioning (AUTOUPDATE)"
+
+msgid "Firmware"
+msgstr "Прошивка"
+
+msgid "Firmware:"
+msgstr "Прошивка:"
+
+msgid "FreePBX Device"
+msgstr "Устройство FreePBX"
+
+msgid "FreePBX device id %s: cannot resolve extension (Fanvil SIP NOTIFY skipped)."
+msgstr "FreePBX device id %s: не найден добавочный (Fanvil SIP NOTIFY пропущен)."
+
+msgid "FreePBX device id %s: cannot resolve extension for SIP NOTIFY — check the extension exists and is linked to the line."
+msgstr "device id %s: нет добавочного для SIP NOTIFY — проверьте привязку линии."
+
+msgid "FT-PSK"
+msgstr "FT-PSK"
+
+msgid "General Information"
+msgstr "Общая информация"
+
+msgid "General Settings"
+msgstr "Общие настройки"
+
+msgid "Hotline"
+msgstr "Горячая линия"
+
+msgid "Hotline Delay"
+msgstr "Задержка горячей линии"
+
+msgid "Hotline delay: 0-30 seconds (WarmLine time)."
+msgstr "Hotline delay: 0-30 seconds (WarmLine time)."
+
+msgid "Hotline Number"
+msgstr "Номер горячей линии"
+
+msgid "How often phones should check for config updates (default: 1440 = 24 hours)"
+msgstr "Как часто телефон запрашивает конфигурацию (по умолчанию 1440 = 24 ч)"
+
+msgid "Invalid CIDR."
+msgstr "Некорректный CIDR."
+
+msgid "Invalid provisioning profile."
+msgstr "Некорректный профиль провижининга."
+
+msgid "IP range in CIDR notation (e.g., 192.168.1.0/24)"
+msgstr "Диапазон IP в нотации CIDR (напр. 192.168.1.0/24)"
+
+msgid "Key"
+msgstr "Клавиша"
+
+msgid "Label"
+msgstr "Метка"
+
+msgid "Last Config"
+msgstr "Последняя конфигурация"
+
+msgid "Last Config:"
+msgstr "Последняя конфигурация:"
+
+msgid "Last IP"
+msgstr "Последний IP"
+
+msgid "Last IP:"
+msgstr "Последний IP:"
+
+msgid "leave blank to keep"
+msgstr "пусто — оставить без изменений"
+
+msgid "Line"
+msgstr "Линия"
+
+msgid "Line Configuration"
+msgstr "Настройка линий"
+
+msgid "Line Key Template"
+msgstr "Line Key Template"
+
+msgid "Line Key Templates (BLF / Speed Dial)"
+msgstr "Line Key Templates (BLF / Speed Dial)"
+
+msgid "Line Keys (BLF / Speed Dial)"
+msgstr "Клавиши линии (BLF / быстрый набор)"
+
+msgid "Lines"
+msgstr "Линии"
+
+msgid "MAC Address"
+msgstr "MAC-адрес"
+
+msgid "MAC address must be 12 hexadecimal digits."
+msgstr "MAC: 12 шестнадцатеричных символов."
+
+msgid "MAC address without colons or dashes"
+msgstr "MAC без двоеточий и дефисов"
+
+msgid "Manual"
+msgstr "Вручную"
+
+msgid "Maximum templates reached."
+msgstr "Maximum templates reached."
+
+msgid "Model"
+msgstr "Модель"
+
+msgid "Model:"
+msgstr "Модель:"
+
+msgid "Multicast address (server)"
+msgstr "Multicast address (server)"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "NAT Keepalive Interval (seconds)"
+msgstr "Интервал NAT keepalive (сек)"
+
+msgid "NAT keepalive: 0 = disabled"
+msgstr "NAT keepalive: 0 = отключено"
+
+msgid "Network Information"
+msgstr "Информация о сети"
+
+msgid "Network Name"
+msgstr "Имя сети"
+
+msgid "Network name is required."
+msgstr "Укажите имя сети."
+
+msgid "Networks"
+msgstr "Сети"
+
+msgid "New"
+msgstr "New"
+
+msgid "No (Validate certificates)"
+msgstr "Нет (проверять сертификаты)"
+
+msgid "No extension on lines — PJSIP status N/A"
+msgstr "Нет добавочного на линиях — PJSIP N/A"
+
+msgid "No Line Key template selected."
+msgstr "No Line Key template selected."
+
+msgid "No networks configured yet."
+msgstr "Сети ещё не настроены."
+
+msgid "No notify actions were recorded (no lines / no AMI / nothing to do)."
+msgstr "Действий Notify не зафиксировано (нет линий / AMI / нечего делать)."
+
+msgid "No phones configured yet."
+msgstr "Телефоны ещё не настроены."
+
+msgid "No phones selected."
+msgstr "No phones selected."
+
+msgid "No PJSIP Avail contact for: %s"
+msgstr "Нет PJSIP Avail для: %s"
+
+msgid "No Wi-Fi profiles on this network. Add profiles in Networks Edit first."
+msgstr "No Wi-Fi profiles on this network. Add profiles in Networks Edit first."
+
+msgid "None"
+msgstr "None"
+
+msgid "Notify"
+msgstr "Уведомить"
+
+msgid "Notify (soft, no reboot)"
+msgstr "Notify (soft, no reboot)"
+
+msgid "NOTIFY body: {base}/{MAC}.cfg. Leave empty to use this server provisioning URL."
+msgstr "NOTIFY body: {base}/{MAC}.cfg. Leave empty to use this server provisioning URL."
+
+msgid "NOTIFY contains pnp.php?mac=...&hash=... where hash is a one-time HMAC-SHA256 token. Invalid hash attempts can ban the client IP."
+msgstr "NOTIFY contains pnp.php?mac=...&hash=... where hash is a one-time HMAC-SHA256 token. Invalid hash attempts can ban the client IP."
+
+msgid "NTP Server 1"
+msgstr "NTP-сервер 1"
+
+msgid "NTP Server 2"
+msgstr "NTP-сервер 2"
+
+msgid "Off (no structured provisioning trace)"
+msgstr "Выкл. (без структурированного журнала провижининга)"
+
+msgid "Open phone web UI (%s)"
+msgstr "Открыть веб-интерфейс (%s)"
+
+msgid "Optional custom label"
+msgstr "Произвольная метка (необяз.)"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Per-SIP-line hotline / warm line (Fanvil). Shown in config as SIP1/SIP2 Hotline Num, Enable Hotline, WarmLine Time."
+msgstr "Горячая линия по SIP (Fanvil): Hotline Num, Enable Hotline, WarmLine Time."
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Phone inventory id %s: no extension line is assigned — open Edit Phone, bind a FreePBX extension, then Notify again."
+msgstr "Телефон id %s: нет привязки линии — откройте Edit Phone, привяжите добавочный, затем Notify."
+
+msgid "Phone Name"
+msgstr "Имя телефона"
+
+msgid "Phone Security"
+msgstr "Безопасность телефона"
+
+msgid "Phone Web Interface Users"
+msgstr "Пользователи веб-интерфейса телефона"
+
+msgid "Phones"
+msgstr "Телефоны"
+
+msgid "Pickup"
+msgstr "Перехват"
+
+msgid "PJSIP Avail at last device IP (%s), no Avail for extensions: %s"
+msgstr "PJSIP Avail по IP телефона (%s), нет Avail для добавочных: %s"
+
+msgid "PJSIP Avail contact at last device IP: %s"
+msgstr "Контакт PJSIP Avail по IP телефона: %s"
+
+msgid "PJSIP Avail: %s"
+msgstr "PJSIP Avail: %s"
+
+msgid "PJSIP status unavailable (AMI not connected)"
+msgstr "Статус PJSIP недоступен (AMI не подключён)"
+
+msgid "Plain text, FreePBX patterns (X Z N .), or regexp: /pattern/ or re:pattern"
+msgstr "Текст, шаблоны FreePBX (X Z N .) или regexp: /шаблон/ или re:шаблон"
+
+msgid "Priority"
+msgstr "Приоритет"
+
+msgid "Privilege"
+msgstr "Права"
+
+msgid "Profile URL base"
+msgstr "Profile URL base"
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "Provisioning diagnostics"
+msgstr "Диагностика провижининга"
+
+msgid "Provisioning log file path"
+msgstr "Путь к файлу журнала провижининга"
+
+msgid "Provisioning log mode"
+msgstr "Режим журнала провижининга"
+
+msgid "Provisioning network: %s (matched by last IP). Profiles are defined under Networks Edit. When Push is off, Fanvil W611 keeps locally configured Wi-Fi."
+msgstr "Provisioning network: %s (matched by last IP). Profiles are defined under Networks Edit. When Push is off, Fanvil W611 keeps locally configured Wi-Fi."
+
+msgid "Provisioning Profile"
+msgstr "Профиль провижининга"
+
+msgid "Provisioning Settings"
+msgstr "Настройки провижининга"
+
+msgid "Provisioning URL:"
+msgstr "Provisioning URL:"
+
+msgid "Push profile to phone"
+msgstr "Push profile to phone"
+
+msgid "Pushed in provisioning for phones in this network: Fanvil &lt;MMI CONFIG MODULE&gt; / AccountN Name|Password|Level; Yealink security.user_name.* and security.user_password (login:password). Administrators map to admin, Users to user. If several networks match, the narrowest CIDR (/32) wins. Empty username skips a row; if no rows are saved, Yealink uses General Settings passwords."
+msgstr "Pushed in provisioning for phones in this network: Fanvil &lt;MMI CONFIG MODULE&gt; / AccountN Name|Password|Level; Yealink security.user_name.* and security.user_password (login:password). Administrators map to admin, Users to user. If several networks match, the narrowest CIDR (/32) wins. Empty username skips a row; if no rows are saved, Yealink uses General Settings passwords."
+
+msgid "Refresh interval (hours, 0–99)"
+msgstr "Refresh interval (hours, 0–99)"
+
+msgid "Registration Expires (seconds)"
+msgstr "Registration Expires (сек)"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Rename the template \\\"%s\\\" before adding another."
+msgstr "Rename the template \\\"%s\\\" before adding another."
+
+msgid "Rename the template \\\"%s\\\" to a unique name before saving or adding another template."
+msgstr "Rename the template \\\"%s\\\" to a unique name before saving or adding another template."
+
+msgid "Responds to SUBSCRIBE; only MACs registered in the phone list. Requires UDP 5060 multicast on LAN interfaces."
+msgstr "Responds to SUBSCRIBE; only MACs registered in the phone list. Requires UDP 5060 multicast on LAN interfaces."
+
+msgid "Result"
+msgstr "Result"
+
+msgid "Run PnP listener on PBX (zerotouchsip/bin/sip-pnp-listen.php, systemd)"
+msgstr "Run PnP listener on PBX (zerotouchsip/bin/sip-pnp-listen.php, systemd)"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Search text or dial pattern (e.g. 6[123][01][0-9], 6XX)"
+msgstr "Поиск или шаблон набора (напр. 6[123][01][0-9], 6XX)"
+
+msgid "Secure Mode"
+msgstr "Secure Mode"
+
+msgid "Secure one-time PnP URLs (?mac=...&hash=...)"
+msgstr "Secure one-time PnP URLs (?mac=...&hash=...)"
+
+msgid "Select a Wi-Fi profile (SSID) from the provisioning network."
+msgstr "Select a Wi-Fi profile (SSID) from the provisioning network."
+
+msgid "Select all"
+msgstr "Выбрать все"
+
+msgid "Select Line Key Template"
+msgstr "Select Line Key Template"
+
+msgid "Select phones, choose a template, then apply it to replace Line Keys on those phones."
+msgstr "Select phones, choose a template, then apply it to replace Line Keys on those phones."
+
+msgid "Select template"
+msgstr "Select template"
+
+msgid "Selected Line Key template was not found."
+msgstr "Selected Line Key template was not found."
+
+msgid "Selected Wi-Fi profile is not defined on the provisioning network."
+msgstr "Selected Wi-Fi profile is not defined on the provisioning network."
+
+msgid "Server port"
+msgstr "Server port"
+
+msgid "Show password"
+msgstr "Показать пароль"
+
+msgid "SIP Plug and Play (PnP)"
+msgstr "SIP Plug and Play (PnP)"
+
+msgid "SIP PnP helps supported phones discover their provisioning URL automatically. Phones send a multicast SUBSCRIBE (RFC 6080 ua-profile), and the PBX replies with a NOTIFY that points the phone to its ZeroTouchSIP config URL. Fanvil phones also receive matching AUTOUPDATE PNP settings in generated configs."
+msgstr "SIP PnP helps supported phones discover their provisioning URL automatically. Phones send a multicast SUBSCRIBE (RFC 6080 ua-profile), and the PBX replies with a NOTIFY that points the phone to its ZeroTouchSIP config URL. Fanvil phones also receive matching AUTOUPDATE PNP settings in generated configs."
+
+msgid "SIP Server Address"
+msgstr "Адрес SIP-сервера"
+
+msgid "SIP Server Port"
+msgstr "Порт SIP-сервера"
+
+msgid "SIP Server Settings"
+msgstr "Настройки SIP-сервера"
+
+msgid "Sort"
+msgstr "Сортировка"
+
+msgid "Sort by PJSIP status (PJSIP / No PJSIP)"
+msgstr "Sort by PJSIP status (PJSIP / No PJSIP)"
+
+msgid "SSID"
+msgstr "SSID"
+
+msgid "Structured provisioning events only; passwords are never logged. If provisioning/.provision_verbose exists, Apache mode is used when this setting is Off."
+msgstr "Structured provisioning events only; passwords are never logged. If provisioning/.provision_verbose exists, Apache mode is used when this setting is Off."
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "Template name"
+msgstr "Template name"
+
+msgid "Template names must be unique."
+msgstr "Template names must be unique."
+
+msgid "Templates are configured under General Settings - Line Key Templates. Applying replaces current Line Keys on this form (save the phone to persist)."
+msgstr "Templates are configured under General Settings - Line Key Templates. Applying replaces current Line Keys on this form (save the phone to persist)."
+
+msgid "Time Settings"
+msgstr "Настройки времени"
+
+msgid "Time Zone"
+msgstr "Часовой пояс"
+
+msgid "TKIP"
+msgstr "TKIP"
+
+msgid "TKIP+AES"
+msgstr "TKIP+AES"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "Transport"
+msgstr "Транспорт"
+
+msgid "Transport protocol"
+msgstr "Transport protocol"
+
+msgid "Trust All Certificates"
+msgstr "Доверять всем сертификатам"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "Use the tabs below to open Phones, Networks, or General Settings."
+msgstr "Вкладки: Телефоны, Сети, Общие настройки."
+
+msgid "Used when mode is \\\"Dedicated log file\\\". Path must stay under /var/log/. On Sangoma FreePBX (rpm) use /var/log/httpd/; on Debian typically /var/log/apache2/. Logrotate: deployment/logrotate-zerotouchsip-provision -> /etc/logrotate.d/zerotouchsip-provision"
+msgstr "Used when mode is \\\"Dedicated log file\\\". Path must stay under /var/log/. On Sangoma FreePBX (rpm) use /var/log/httpd/; on Debian typically /var/log/apache2/. Logrotate: deployment/logrotate-zerotouchsip-provision -> /etc/logrotate.d/zerotouchsip-provision"
+
+msgid "user"
+msgstr "user"
+
+msgid "User name"
+msgstr "Имя пользователя"
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Value/Extension"
+msgstr "Значение/добавочный"
+
+msgid "Vendor"
+msgstr "Производитель"
+
+msgid "Web Authentication Password"
+msgstr "Пароль веб-аутентификации"
+
+msgid "Web UI password for \\\"%s\\\" is too long (max %d for Yealink provisioning)."
+msgstr "Web UI password for \\\"%s\\\" is too long (max %d for Yealink provisioning)."
+
+msgid "Web UI password is required for user \\\"%s\\\"."
+msgstr "Web UI password is required for user \\\"%s\\\"."
+
+msgid "Web UI username \\\"%s\\\" is too long (max %d)."
+msgstr "Web UI username \\\"%s\\\" is too long (max %d)."
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Wi-Fi password for \\\"%s\\\" is too long (max 63)."
+msgstr "Wi-Fi password for \\\"%s\\\" is too long (max 63)."
+
+msgid "Wi-Fi password is required for secured profile \\\"%s\\\"."
+msgstr "Wi-Fi password is required for secured profile \\\"%s\\\"."
+
+msgid "Wi-Fi profile"
+msgstr "Wi-Fi profile"
+
+msgid "Wi-Fi Profiles"
+msgstr "Wi-Fi Profiles"
+
+msgid "Wi-Fi SSID \\\"%s\\\" is too long (max 32)."
+msgstr "Wi-Fi SSID \\\"%s\\\" is too long (max 32)."
+
+msgid "Wi-Fi username is required for 802.1x profile \\\"%s\\\"."
+msgstr "Wi-Fi username is required for 802.1x profile \\\"%s\\\"."
+
+msgid "WPA/WPA2-PSK"
+msgstr "WPA/WPA2-PSK"
+
+msgid "Yealink"
+msgstr "Yealink"
+
+msgid "Yes (Accept all)"
+msgstr "Да (принимать все)"
+
+msgid "ZeroTouchSIP"
+msgstr "ZeroTouchSIP"
+
+msgid "— select SSID —"
+msgstr "— select SSID —"
+
+msgid "Records %from% to %to% of %total%"
+msgstr "Записи с %from% по %to% из %total%"
+
+msgid "records per page"
+msgstr "записей на страницу"
+
+msgid "previous page"
+msgstr "предыдущая страница"
+
+msgid "next page"
+msgstr "следующая страница"
+
+msgid "go to page"
+msgstr "перейти к странице"

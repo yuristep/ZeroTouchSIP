@@ -1,0 +1,18 @@
+[Unit]
+Description=ZeroTouchSIP SIP Plug and Play listener (224.0.1.75:5060)
+After=network.target asterisk.service
+Wants=network.target
+
+[Service]
+Type=simple
+ExecStartPre=/bin/mkdir -p /var/spool/asterisk/zerotouchsip-pnp/issued /var/spool/asterisk/zerotouchsip-pnp/fail
+ExecStartPre=/bin/chown -R root:asterisk /var/spool/asterisk/zerotouchsip-pnp
+ExecStartPre=/bin/chmod 2770 /var/spool/asterisk/zerotouchsip-pnp
+ExecStartPre=/bin/chmod 2770 /var/spool/asterisk/zerotouchsip-pnp/issued /var/spool/asterisk/zerotouchsip-pnp/fail
+ExecStart=/usr/bin/php /var/www/html/admin/modules/zerotouchsip/bin/sip-pnp-listen.php
+Restart=on-failure
+RestartSec=5
+User=root
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,1048 @@
+<<VOIP CONFIG FILE>>Version:{CONFIG_VERSION}
+
+<GLOBAL CONFIG MODULE>
+WAN Mode           :DHCP
+WAN IP             :192.168.1.179
+WAN Subnet Mask    :255.255.255.0
+WAN Gateway        :192.168.1.1
+Primary DNS        :192.168.100.100
+Secondary DNS      :192.168.100.101
+Enable DHCP        :1
+Use Vendor Class ID:0
+Vendor Class ID    :F0H5HW1.100
+DHCP Auto DNS      :1
+DHCP Auto Time     :1
+DHCP Option 100-101:1
+ARP Cache Life     :2
+Enable PPPoE       :0
+RTP Initial Port   :10000
+RTP Port Quantity  :200
+SNTP Server        :{NTP_SERVER1}
+Second SNTP Server :{NTP_SERVER2}
+Enable SNTP        :1
+Time Zone          :{TIME_ZONE}
+Location           :0
+Time Zone Name     :{TIME_ZONE_NAME}
+Enable DST         :{DST_ENABLE}
+DST Fixed Type     :2
+SNTP Timeout       :60
+DST Min Offset     :60
+DST Start Mon      :3
+DST Start Week     :5
+DST Start Wday     :0
+DST Start Hour     :2
+DST End Mon        :10
+DST End Week       :5
+DST End Wday       :0
+DST End Hour       :2
+Language           :{FANVIL_LANG}
+Input Method       :0
+Push XML IP        :
+Enable Call History:1
+Active Uri IP      :
+Boot Completed Url :
+Reg On Url         :
+Reg Off Url        :
+Reg Failed Url     :
+Offhook Url        :
+Onhook Url         :
+Incoming Call Url  :
+Outgoing Call Url  :
+Call Active Url    :
+Call Stop Url      :
+DND On Url         :
+DND Off Url        :
+Always FWD On Url  :
+Always FWD Off Url :
+Busy FWD On Url    :
+Busy FWD Off Url   :
+No Ans FWD On Url  :
+No Ans FWD Off Url :
+Transfer Url       :
+B Transfer Url     :
+A Transfer Url     :
+Hold Url           :
+Unhold Url         :
+Mute Url           :
+Unmute Url         :
+Missed call Url    :
+IP Change Url      :
+Idle to Busy Url   :
+Busy to Idle Url   :
+Hotel Name         :
+Floor Addr         :
+Room No            :
+Redial Out Of Time :0
+Hotel Address      :
+Addr Font          :2
+Addr Format        :2
+Hotel Tel          :
+Tel Font           :2
+Tel Format         :2
+Hotel First line   :
+First line Format  :2
+Hotel Second line  :
+Second line  Format:2
+Hotel Third line   :
+Third line Format  :2
+Hotel Four line    :
+Four line Format   :2
+Line Font          :2
+Font colour        :1
+ATE ID             :
+All Pswd Encryption:0
+
+<TELE CONFIG MODULE>
+Dial by Pound      :1
+BTransfer by Pound :1
+Onhook to BXfer    :0
+Onhook to AXfer    :1
+Memory Key to BXfer:0
+Xfer On Conf Onhook:0
+Dial Fixed Length  :0
+Fixed Length Nums  :11
+Dial by Timeout    :1
+Dial Timeout value :5
+Dialpeer With Line :0
+IP Dial Prefix     :.
+Auto Switch Call   :0
+--Port Config--    :
+P1 Enable DND      :0
+P1 DND Mode        :0
+P1 Call Record Type:0
+P1 Enable Force Rin:0
+P1 Mute Ringing    :0
+P1 CWaiting Tone   :1
+P1 Ban Dial Out    :0
+P1 Ban Empty CID   :0
+P1 Enable CLIP     :1
+P1 CallWaiting     :1
+P1 CallTransfer    :1
+P1 CallSemiXfer    :1
+P1 CallConference  :1
+P1 AutoAnswer      :0
+P1 No Answer Time  :20
+P1 Warm Line Time  :0
+P1 Hotline Num     :
+P1 Auto PickupNext :0
+P1 Busy No Line    :0
+P1 Auto Onhook     :1
+P1 Auto Onhook Time:3
+P1 DND Code        :1
+P1 Busy Code       :2
+P1 Reject Code     :3
+P1 Caller Display T:5
+P1 Caller Name Type:0
+P1 Enable Intercom :1
+P1 Intercom Mute   :0
+P1 Intercom Tone   :1
+P1 Intercom Barge  :0
+P1 Use Auto Redial :0
+P1 AutoRedial Delay:10
+P1 AutoRedial Times:10
+P1 Call Complete   :0
+P1 Hide DTMF Type  :0
+P1 Talk DTMF Tone  :1
+P1 Dial DTMF Tone  :1
+P1 Psw Dial Mode   :0
+P1 Psw Dial Length :0
+P1 Psw Dial Prefix :
+P1 Enable MultiLine:1
+P1 Allow IP Call   :1
+P1 CHolding Tone   :1
+P1 Number Privacy  :0
+P1 Privacy Rule    :
+Transf SDial       :0
+Enable Code Plan   :0
+Country Code       :
+Area Code          :
+Transf DTMF Code   :
+Hold DTMF Code     :
+Conf DTMF Code     :
+Conf Limit Rule    :
+Ena Two Ext Conf   :0
+Call Timeout       :90
+Ring Timeout       :120
+
+<DSP CONFIG MODULE>
+Signal Standard    :11
+Enable MWI Tone    :1
+Play Egress DTMF   :2
+Onhook Time        :120
+Enable Hookflash   :0
+G729 Payload Len   :1
+G723 Bit Rate      :1
+G722 Timestamps    :0
+VAD                :0
+Ring Type          :0
+Dtmf Payload Type  :101
+TX AGC             :0
+RX AGC             :0
+Headset MIC offset :3
+Headset spkr offset:7
+Sidetone GAIN      :3
+RTP Keep Alive     :0
+Region type        :0
+RTCP Interval      :5000
+--Port Config--    :
+P1 General Spk Vol :5
+P1 General Mic Vol :3
+P1 Headset Vol     :5
+P1 Ring in Headset :0
+P1 Auto Headset    :0
+P1 Headset Ring Vol:5
+P1 HandFree Vol    :5
+P1 RingTone Vol    :5
+P1 Voice Codec1    :G722/8000
+P1 Voice Codec2    :PCMA/8000
+P1 Voice Codec3    :PCMU/8000
+P1 Voice Codec4    :G729/8000
+P1 Voice Codec5    :
+P1 Voice Codec6    :
+--Alert Info Ring--:
+Alert1 Text        :
+Alert1 sipLine     :0
+Alert1 Ring Type   :1
+Alert2 Text        :
+Alert2 sipLine     :0
+Alert2 Ring Type   :2
+Alert3 Text        :
+Alert3 sipLine     :0
+Alert3 Ring Type   :3
+Alert4 Text        :
+Alert4 sipLine     :0
+Alert4 Ring Type   :4
+Alert5 Text        :
+Alert5 sipLine     :0
+Alert5 Ring Type   :5
+Alert6 Text        :
+Alert6 sipLine     :0
+Alert6 Ring Type   :6
+Alert7 Text        :
+Alert7 sipLine     :0
+Alert7 Ring Type   :7
+Alert8 Text        :
+Alert8 sipLine     :0
+Alert8 Ring Type   :8
+Alert9 Text        :
+Alert9 sipLine     :0
+Alert9 Ring Type   :9
+Alert10 Text       :
+Alert10 sipLine    :0
+Alert10 Ring Type  :1
+
+<SIP CONFIG MODULE>
+SIP  Port          :5060
+STUN Server        :
+STUN Port          :3478
+STUN Refresh Time  :50
+SIP Wait Stun Time :800
+Extern NAT Addrs   :
+Reg Fail Interval  :32
+SIP Pswd Encryption:0
+Strict BranchPrefix:0
+Enable Group Backup:1
+Enable RFC4475     :1
+SIP invite strict  :1
+Notify Reboot      :{NOTIFY_REBOOT}
+SMS direct Enabled :0
+SMS Save Enabled   :1
+SMS Ring Enabled   :1
+CSTA Enable        :0
+Strict UA Match    :0
+Transaction TimerT1:500
+Transaction TimerT2:4000
+Transaction TimerT4:5000
+--SIP Line List--  :
+SIP1 Phone Number  :{SIP1_PHONE_NUMBER}
+SIP1 Display Name  :{SIP1_DISPLAY_NAME}
+SIP1 Sip Name      :{SIP1_SIP_NAME}
+SIP1 Register Addr :{SIP1_REGISTER_ADDR}
+SIP1 Register Port :{SIP1_REGISTER_PORT}
+SIP1 Register User :{SIP1_REGISTER_USER}
+SIP1 Register Pswd :{SIP1_REGISTER_PSWD}
+SIP1 Register TTL  :{SIP1_REGISTER_TTL}
+SIP1 Backup Addr   :{SIP1_BACKUP_ADDR}
+SIP1 Backup Port   :{SIP1_BACKUP_PORT}
+SIP1 Backup Transpo:1
+SIP1 Backup TTL    :{SIP1_BACKUP_TTL}
+SIP1 Backup Mode   :0
+SIP1 Enable Reg    :{SIP1_ENABLE_REG}
+SIP1 Proxy Addr    :
+SIP1 Proxy Port    :5060
+SIP1 Proxy User    :{SIP1_PROXY_USER}
+SIP1 Proxy Pswd    :{SIP1_PROXY_PSWD}
+SIP1 BakProxy Addr :
+SIP1 BakProxy Port :5060
+SIP1 Enable Failbac:0
+SIP1 Failback Hold :1
+SIP1 Failback Inter:1800
+SIP1 Signal Failbac:0
+SIP1 Signal Retry C:3
+SIP1 Ena RFC5939   :0
+SIP1 Media Crypto  :0
+SIP1 SRTP Auth-Tag :0
+SIP1 Local Domain  :{SIP1_LOCAL_DOMAIN}
+SIP1 Always FWD    :0
+SIP1 Busy FWD      :0
+SIP1 No Answer FWD :0
+SIP1 Always FWD Num:
+SIP1 Busy FWD Num  :
+SIP1 NoAnswer FWD N:
+SIP1 FWD Timer     :5
+SIP1 Ring Type     :0
+SIP1 Hotline Num   :{SIP1_HOTLINE_NUM}
+SIP1 Enable Hotline:0
+SIP1 WarmLine Time :{SIP1_WARMLINE_TIME}
+SIP1 Pickup Num    :
+SIP1 Join Num      :
+SIP1 NAT UDPUpdate :2
+SIP1 UDPUpdate TTL :15
+SIP1 Server Type   :0
+SIP1 User Agent    :
+SIP1 PRACK         :1
+SIP1 Keep AUTH     :0
+SIP1 Session Timer :0
+SIP1 S.Timer Expire:0
+SIP1 Enable GRUU   :0
+SIP1 DTMF Mode     :3
+SIP1 DTMF Info Mode:0
+SIP1 NAT Type      :0
+SIP1 Enable Rport  :1
+SIP1 Subscribe     :0
+SIP1 Sub Expire    :3600
+SIP1 Single Codec  :0
+SIP1 CLIR          :0
+SIP1 Strict Proxy  :0
+SIP1 Direct Contact:0
+SIP1 History Info  :0
+SIP1 DNS SRV       :0
+SIP1 DNS Mode      :0
+SIP1 XFER Expire   :0
+SIP1 Ban Anonymous :0
+SIP1 Dial Off Line :0
+SIP1 Quota Name    :0
+SIP1 Presence Mode :0
+SIP1 RFC Ver       :1
+SIP1 Signal Port   :5060
+SIP1 Transport     :{SIP1_TRANSPORT}
+SIP1 Enable ChgPort:1
+SIP1 TLS Version   :2
+SIP1 Ena sips URI  :0
+SIP1 Use SRV Mixer :0
+SIP1 SRV Mixer Uri :
+SIP1 Long Contact  :0
+SIP1 Auto TCP      :0
+SIP1 Uri Escaped   :1
+SIP1 Click to Talk :0
+SIP1 MWI Num       :
+SIP1 CallPark Num  :
+SIP1 Retrieve Num  :
+SIP1 MSRPHelp Num  :
+SIP1 User Is Phone :1
+SIP1 Auto Answer   :0
+SIP1 NoAnswerTime  :5
+SIP1 MissedCallLog :1
+SIP1 SvcCode Mode  :0
+SIP1 DNDOn SvcCode :
+SIP1 DNDOff SvcCode:
+SIP1 CFUOn SvcCode :
+SIP1 CFUOff SvcCode:
+SIP1 CFBOn SvcCode :
+SIP1 CFBOff SvcCode:
+SIP1 CFNOn SvcCode :
+SIP1 CFNOff SvcCode:
+SIP1 ANCOn SvcCode :
+SIP1 ANCOff SvcCode:
+SIP1 Send ANOn Code:
+SIP1 Send ANOffCode:
+SIP1 CW On Code    :
+SIP1 CW Off Code   :
+SIP1 VoiceCodecMap :{SIP1_VOICE_CODEC_MAP}
+SIP1 BLFList Uri   :
+SIP1 BLF Server    :
+SIP1 Respond 182   :0
+SIP1 Enable BLFList:0
+SIP1 Caller Id Type:4
+SIP1 Syn Clock Time:0
+SIP1 Use VPN       :1
+SIP1 Enable DND    :0
+SIP1 Inactive Hold :0
+SIP1 Enable SCA    :0
+SIP1 Sub CallPark  :0
+SIP1 Hoteling Event:0
+SIP1 Sub CC Status :0
+SIP1 CSTA Number   :
+SIP1 Feature Sync  :0
+SIP1 Req With Port :1
+SIP1 Enable Mute   :0
+SIP1 Unreg Reboot  :0
+SIP1 Flash Mode    :0
+SIP1 Use Tel Call  :0
+SIP1 Content Type  :
+SIP1 Content Body  :
+SIP1 Deal 180      :1
+SIP1 Ena MAC Header:0
+SIP1 Ena REG MAC   :0
+SIP1 BLF dialog mat:1
+SIP1 Ptime         :0
+SIP2 Phone Number  :{SIP2_PHONE_NUMBER}
+SIP2 Display Name  :{SIP2_DISPLAY_NAME}
+SIP2 Sip Name      :{SIP2_SIP_NAME}
+SIP2 Register Addr :{SIP2_REGISTER_ADDR}
+SIP2 Register Port :{SIP2_REGISTER_PORT}
+SIP2 Register User :{SIP2_REGISTER_USER}
+SIP2 Register Pswd :{SIP2_REGISTER_PSWD}
+SIP2 Register TTL  :{SIP2_REGISTER_TTL}
+SIP2 Backup Addr   :{SIP2_BACKUP_ADDR}
+SIP2 Backup Port   :{SIP2_BACKUP_PORT}
+SIP2 Backup Transpo:0
+SIP2 Backup TTL    :{SIP2_BACKUP_TTL}
+SIP2 Backup Mode   :0
+SIP2 Enable Reg    :{SIP2_ENABLE_REG}
+SIP2 Proxy Addr    :
+SIP2 Proxy Port    :5060
+SIP2 Proxy User    :{SIP2_PROXY_USER}
+SIP2 Proxy Pswd    :{SIP2_PROXY_PSWD}
+SIP2 BakProxy Addr :
+SIP2 BakProxy Port :5060
+SIP2 Enable Failbac:0
+SIP2 Failback Hold :1
+SIP2 Failback Inter:1800
+SIP2 Signal Failbac:0
+SIP2 Signal Retry C:3
+SIP2 Ena RFC5939   :0
+SIP2 Media Crypto  :0
+SIP2 SRTP Auth-Tag :0
+SIP2 Local Domain  :{SIP2_LOCAL_DOMAIN}
+SIP2 Always FWD    :0
+SIP2 Busy FWD      :0
+SIP2 No Answer FWD :0
+SIP2 Always FWD Num:
+SIP2 Busy FWD Num  :
+SIP2 NoAnswer FWD N:
+SIP2 FWD Timer     :5
+SIP2 Ring Type     :0
+SIP2 Hotline Num   :{SIP2_HOTLINE_NUM}
+SIP2 Enable Hotline:0
+SIP2 WarmLine Time :{SIP2_WARMLINE_TIME}
+SIP2 Pickup Num    :
+SIP2 Join Num      :
+SIP2 NAT UDPUpdate :2
+SIP2 UDPUpdate TTL :15
+SIP2 Server Type   :0
+SIP2 User Agent    :
+SIP2 PRACK         :1
+SIP2 Keep AUTH     :0
+SIP2 Session Timer :0
+SIP2 S.Timer Expire:0
+SIP2 Enable GRUU   :0
+SIP2 DTMF Mode     :3
+SIP2 DTMF Info Mode:0
+SIP2 NAT Type      :0
+SIP2 Enable Rport  :1
+SIP2 Subscribe     :0
+SIP2 Sub Expire    :3600
+SIP2 Single Codec  :0
+SIP2 CLIR          :0
+SIP2 Strict Proxy  :0
+SIP2 Direct Contact:0
+SIP2 History Info  :0
+SIP2 DNS SRV       :0
+SIP2 DNS Mode      :0
+SIP2 XFER Expire   :0
+SIP2 Ban Anonymous :0
+SIP2 Dial Off Line :0
+SIP2 Quota Name    :0
+SIP2 Presence Mode :0
+SIP2 RFC Ver       :1
+SIP2 Signal Port   :5060
+SIP2 Transport     :{SIP2_TRANSPORT}
+SIP2 Enable ChgPort:1
+SIP2 TLS Version   :2
+SIP2 Ena sips URI  :0
+SIP2 Use SRV Mixer :0
+SIP2 SRV Mixer Uri :
+SIP2 Long Contact  :0
+SIP2 Auto TCP      :0
+SIP2 Uri Escaped   :1
+SIP2 Click to Talk :0
+SIP2 MWI Num       :
+SIP2 CallPark Num  :
+SIP2 Retrieve Num  :
+SIP2 MSRPHelp Num  :
+SIP2 User Is Phone :1
+SIP2 Auto Answer   :0
+SIP2 NoAnswerTime  :5
+SIP2 MissedCallLog :1
+SIP2 SvcCode Mode  :0
+SIP2 DNDOn SvcCode :
+SIP2 DNDOff SvcCode:
+SIP2 CFUOn SvcCode :
+SIP2 CFUOff SvcCode:
+SIP2 CFBOn SvcCode :
+SIP2 CFBOff SvcCode:
+SIP2 CFNOn SvcCode :
+SIP2 CFNOff SvcCode:
+SIP2 ANCOn SvcCode :
+SIP2 ANCOff SvcCode:
+SIP2 Send ANOn Code:
+SIP2 Send ANOffCode:
+SIP2 CW On Code    :
+SIP2 CW Off Code   :
+SIP2 VoiceCodecMap :{SIP2_VOICE_CODEC_MAP}
+SIP2 BLFList Uri   :
+SIP2 BLF Server    :
+SIP2 Respond 182   :0
+SIP2 Enable BLFList:0
+SIP2 Caller Id Type:4
+SIP2 Syn Clock Time:0
+SIP2 Use VPN       :1
+SIP2 Enable DND    :0
+SIP2 Inactive Hold :0
+SIP2 Enable SCA    :0
+SIP2 Sub CallPark  :0
+SIP2 Hoteling Event:0
+SIP2 Sub CC Status :0
+SIP2 CSTA Number   :
+SIP2 Feature Sync  :0
+SIP2 Req With Port :1
+SIP2 Enable Mute   :0
+SIP2 Unreg Reboot  :0
+SIP2 Flash Mode    :0
+SIP2 Use Tel Call  :0
+SIP2 Content Type  :
+SIP2 Content Body  :
+SIP2 Deal 180      :1
+SIP2 Ena MAC Header:0
+SIP2 Ena REG MAC   :0
+SIP2 BLF dialog mat:1
+SIP2 Ptime         :0
+
+<MCAST CFG MODULE>
+Priority           :0
+Enbale Priority    :0
+Multicast Tone     :1
+--Mcast Addr--     :
+MCAST1 Port        :0
+MCAST1 Name        :
+MCAST1 Host        :
+MCAST2 Port        :0
+MCAST2 Name        :
+MCAST2 Host        :
+MCAST3 Port        :0
+MCAST3 Name        :
+MCAST3 Host        :
+MCAST4 Port        :0
+MCAST4 Name        :
+MCAST4 Host        :
+MCAST5 Port        :0
+MCAST5 Name        :
+MCAST5 Host        :
+MCAST6 Port        :0
+MCAST6 Name        :
+MCAST6 Host        :
+MCAST7 Port        :0
+MCAST7 Name        :
+MCAST7 Host        :
+MCAST8 Port        :0
+MCAST8 Name        :
+MCAST8 Host        :
+MCAST9 Port        :0
+MCAST9 Name        :
+MCAST9 Host        :
+MCAST10 Port       :0
+MCAST10 Name       :
+MCAST10 Host       :
+
+<PPPoE CONFIG MODULE>
+PPPoE User         :user123
+PPPoE Password     :password
+PPPoE Svc Name     :
+PPPoE IP Address   :
+
+<MMI CONFIG MODULE>
+Web Port           :80
+Web Server Type    :0
+Https Web Port     :443
+Enable MMI Filter  :0
+Web Authentication :0
+Default WEB User   :0
+--MMI Account--    :
+Account1 Name      :{MMI_ACCOUNT1_NAME}
+Account1 Password  :{MMI_ACCOUNT1_PASSWORD}
+Account1 Level     :{MMI_ACCOUNT1_LEVEL}
+Account2 Name      :{MMI_ACCOUNT2_NAME}
+Account2 Password  :{MMI_ACCOUNT2_PASSWORD}
+Account2 Level     :{MMI_ACCOUNT2_LEVEL}
+
+<QOS CONFIG MODULE>
+Enable VLAN        :0
+Enable diffServ    :0
+LLDP Transmit      :1
+LLDP Refresh Time  :60
+LLDP Learn Policy  :1
+CDP Enabled        :1
+CDP Refresh Time   :60
+Singalling DSCP    :46
+Voice DSCP         :46
+VLAN ID            :256
+Signalling Priority:0
+Voice Priority     :0
+LAN Port Priority  :0
+VLAN Recv Check    :0
+Enable PVID        :1
+PVID Value         :254
+DHCP Option Vlan   :132
+
+<DEBUG CONFIG MODULE>
+MGR Trace Level    :0
+SIP Trace Level    :0
+Trace File Info    :0
+Enable Watch Dog   :1
+Enable Memory Info :0
+
+<AAA CONFIG MODULE>
+Enable Syslog      :0
+Syslog address     :0.0.0.0
+Syslog port        :514
+
+<ACCESS CONFIG MODULE>
+Enable In Access   :0
+Enable Out Access  :0
+
+<PHONE CONFIG MODULE>
+Menu Password      :123
+KeyLock Password   :123
+Fast Keylock Code  :
+Enable KeyLock     :0
+KeyLock Status     :0
+Emergency Call     :110
+LCD Title          :{DEVICE_NAME}
+LCD Constrast      :5
+LCD Luminance      :0
+Backlight Off Time :{BACKLIGHT_TIME}
+ScrnSaver Wait Time:0
+Power Led Refresh  :0
+KeyLock Timeout    :0
+Enable Power Led   :0
+SMS MWI Power Led  :3
+Miss Call Power Led:0
+Talk Dial Power Led:0
+Ringing Power Led  :0
+Mute Call Power Led:1
+Hold Power Led     :0
+Auto Close Led     :0
+Time Display Style :0
+Remove Call Timer  :0
+Phone Model        :H5
+FuncKey Page Num   :1
+Blf Default type   :0
+Disable CHN IME    :0
+Disable Dial Search:0
+Redial Enter CLog  :1
+Date Display Style :0
+Date Separator     :0
+BLF Idle Color     :0
+BLF Idle Ctl       :1
+BLF Ring Color     :1
+BLF Ring Ctl       :2
+BLF Using Color    :1
+BLF Using Ctl      :1
+BLF Failed Color   :0
+BLF Failed Ctl     :0
+BLF Parked Color   :0
+BLF Parked Ctl     :2
+Line Idle Color    :0
+Line Idle Ctl      :1
+Enable Pre-Dial    :0
+Default Line       :0
+Enable Default Line:1
+Enable Auto SelLine:1
+Agent Username     :
+Agent Password     :
+Agent Number       :
+Agent Sipline      :0
+Agent Status       :0
+Agent Status Reason:
+--BW Calllogs Conf-:
+BWCLog1 Title      :
+BWCLog1 URL        :
+BWCLog1 Username   :
+BWCLog1 Password   :
+BWCLog1 SipLine    :0
+BWCLog2 Title      :
+BWCLog2 URL        :
+BWCLog2 Username   :
+BWCLog2 Password   :
+BWCLog2 SipLine    :0
+BWCLog3 Title      :
+BWCLog3 URL        :
+BWCLog3 Username   :
+BWCLog3 Password   :
+BWCLog3 SipLine    :0
+--BW Directory Conf:
+BWDir1 Title       :
+BWDir1 URL         :
+BWDir1 Username    :
+BWDir1 Password    :
+BWDir1 SipLine     :0
+BWDir2 Title       :
+BWDir2 URL         :
+BWDir2 Username    :
+BWDir2 Password    :
+BWDir2 SipLine     :0
+BWDir3 Title       :
+BWDir3 URL         :
+BWDir3 Username    :
+BWDir3 Password    :
+BWDir3 SipLine     :0
+BWDir4 Title       :
+BWDir4 URL         :
+BWDir4 Username    :
+BWDir4 Password    :
+BWDir4 SipLine     :0
+BWDir5 Title       :
+BWDir5 URL         :
+BWDir5 Username    :
+BWDir5 Password    :
+BWDir5 SipLine     :0
+BWDir6 Title       :
+BWDir6 URL         :
+BWDir6 Username    :
+BWDir6 Password    :
+BWDir6 SipLine     :0
+--LDAP Config--    :
+LDAP1 Title        :
+LDAP1 Server       :
+LDAP1 port         :389
+LDAP1 Authenticate :0
+LDAP1 Version      :3
+LDAP1 Calling Line :0
+LDAP1 Enable Search:0
+LDAP1 Bind Line    :0
+LDAP1 Base         :
+LDAP1 Username     :
+LDAP1 Password     :
+LDAP1 Tel Attr     :telephoneNumber
+LDAP1 Mobile Attr  :mobile
+LDAP1 Other Attr   :home
+LDAP1 Displayname  :cn
+LDAP1 Filter Name  :
+LDAP1 Filter number:
+LDAP2 Title        :
+LDAP2 Server       :
+LDAP2 port         :389
+LDAP2 Authenticate :0
+LDAP2 Version      :3
+LDAP2 Calling Line :0
+LDAP2 Enable Search:0
+LDAP2 Bind Line    :0
+LDAP2 Base         :
+LDAP2 Username     :
+LDAP2 Password     :
+LDAP2 Tel Attr     :telephoneNumber
+LDAP2 Mobile Attr  :mobile
+LDAP2 Other Attr   :home
+LDAP2 Displayname  :cn
+LDAP2 Filter Name  :
+LDAP2 Filter number:
+LDAP3 Title        :
+LDAP3 Server       :
+LDAP3 port         :389
+LDAP3 Authenticate :0
+LDAP3 Version      :3
+LDAP3 Calling Line :0
+LDAP3 Enable Search:0
+LDAP3 Bind Line    :0
+LDAP3 Base         :
+LDAP3 Username     :
+LDAP3 Password     :
+LDAP3 Tel Attr     :telephoneNumber
+LDAP3 Mobile Attr  :mobile
+LDAP3 Other Attr   :home
+LDAP3 Displayname  :cn
+LDAP3 Filter Name  :
+LDAP3 Filter number:
+LDAP4 Title        :
+LDAP4 Server       :
+LDAP4 port         :389
+LDAP4 Authenticate :0
+LDAP4 Version      :3
+LDAP4 Calling Line :0
+LDAP4 Enable Search:0
+LDAP4 Bind Line    :0
+LDAP4 Base         :
+LDAP4 Username     :
+LDAP4 Password     :
+LDAP4 Tel Attr     :telephoneNumber
+LDAP4 Mobile Attr  :mobile
+LDAP4 Other Attr   :home
+LDAP4 Displayname  :cn
+LDAP4 Filter Name  :
+LDAP4 Filter number:
+--Xml PhoneBook--  :
+XML-PBook1 Name    :
+XML-PBook1 Addr    :
+XML-PBook1 Auth    :
+XML-PBook1 Policy  :0
+XML-PBook1 Sipline :0
+XML-PBook1 BindLine:0
+XML-PBook2 Name    :
+XML-PBook2 Addr    :
+XML-PBook2 Auth    :
+XML-PBook2 Policy  :0
+XML-PBook2 Sipline :0
+XML-PBook2 BindLine:0
+XML-PBook3 Name    :
+XML-PBook3 Addr    :
+XML-PBook3 Auth    :
+XML-PBook3 Policy  :0
+XML-PBook3 Sipline :0
+XML-PBook3 BindLine:0
+XML-PBook4 Name    :
+XML-PBook4 Addr    :
+XML-PBook4 Auth    :
+XML-PBook4 Policy  :0
+XML-PBook4 Sipline :0
+XML-PBook4 BindLine:0
+XML-PBook5 Name    :
+XML-PBook5 Addr    :
+XML-PBook5 Auth    :
+XML-PBook5 Policy  :0
+XML-PBook5 Sipline :0
+XML-PBook5 BindLine:0
+XML-PBook6 Name    :
+XML-PBook6 Addr    :
+XML-PBook6 Auth    :
+XML-PBook6 Policy  :0
+XML-PBook6 Sipline :0
+XML-PBook6 BindLine:0
+XML-PBook7 Name    :
+XML-PBook7 Addr    :
+XML-PBook7 Auth    :
+XML-PBook7 Policy  :0
+XML-PBook7 Sipline :0
+XML-PBook7 BindLine:0
+XML-PBook8 Name    :
+XML-PBook8 Addr    :
+XML-PBook8 Auth    :
+XML-PBook8 Policy  :0
+XML-PBook8 Sipline :0
+XML-PBook8 BindLine:0
+Phonebook Groups   :
+--Function Key--   :
+Fkey1 Type         :{LINEKEY_1_TYPE}
+Fkey1 Value        :{LINEKEY_1_VALUE}
+Fkey1 Title        :{LINEKEY_1_TITLE}
+Fkey2 Type         :{LINEKEY_2_TYPE}
+Fkey2 Value        :{LINEKEY_2_VALUE}
+Fkey2 Title        :{LINEKEY_2_TITLE}
+Fkey3 Type         :{LINEKEY_3_TYPE}
+Fkey3 Value        :{LINEKEY_3_VALUE}
+Fkey3 Title        :{LINEKEY_3_TITLE}
+Fkey4 Type         :{LINEKEY_4_TYPE}
+Fkey4 Value        :{LINEKEY_4_VALUE}
+Fkey4 Title        :{LINEKEY_4_TITLE}
+Fkey5 Type         :{LINEKEY_5_TYPE}
+Fkey5 Value        :{LINEKEY_5_VALUE}
+Fkey5 Title        :{LINEKEY_5_TITLE}
+Fkey6 Type         :{LINEKEY_6_TYPE}
+Fkey6 Value        :{LINEKEY_6_VALUE}
+Fkey6 Title        :{LINEKEY_6_TITLE}
+Fkey7 Type         :{LINEKEY_7_TYPE}
+Fkey7 Value        :{LINEKEY_7_VALUE}
+Fkey7 Title        :{LINEKEY_7_TITLE}
+Fkey8 Type         :{LINEKEY_8_TYPE}
+Fkey8 Value        :{LINEKEY_8_VALUE}
+Fkey8 Title        :{LINEKEY_8_TITLE}
+Fkey9 Type         :{LINEKEY_9_TYPE}
+Fkey9 Value        :{LINEKEY_9_VALUE}
+Fkey9 Title        :{LINEKEY_9_TITLE}
+Fkey10 Type        :{LINEKEY_10_TYPE}
+Fkey10 Value       :{LINEKEY_10_VALUE}
+Fkey10 Title       :{LINEKEY_10_TITLE}
+Fkey11 Type        :{LINEKEY_11_TYPE}
+Fkey11 Value       :{LINEKEY_11_VALUE}
+Fkey11 Title       :{LINEKEY_11_TITLE}
+Fkey12 Type        :{LINEKEY_12_TYPE}
+Fkey12 Value       :{LINEKEY_12_VALUE}
+Fkey12 Title       :{LINEKEY_12_TITLE}
+Fkey13 Type        :{LINEKEY_13_TYPE}
+Fkey13 Value       :{LINEKEY_13_VALUE}
+Fkey13 Title       :{LINEKEY_13_TITLE}
+Fkey14 Type        :{LINEKEY_14_TYPE}
+Fkey14 Value       :{LINEKEY_14_VALUE}
+Fkey14 Title       :{LINEKEY_14_TITLE}
+Fkey15 Type        :{LINEKEY_15_TYPE}
+Fkey15 Value       :{LINEKEY_15_VALUE}
+Fkey15 Title       :{LINEKEY_15_TITLE}
+--Soft Dss Key--   :
+SoftFkey1 Type     :{SOFTFKEY1_TYPE}
+SoftFkey1 Value    :{SOFTFKEY1_VALUE}
+SoftFkey1 Title    :{SOFTFKEY1_TITLE}
+SoftFkey2 Type     :{SOFTFKEY2_TYPE}
+SoftFkey2 Value    :{SOFTFKEY2_VALUE}
+SoftFkey2 Title    :{SOFTFKEY2_TITLE}
+SoftFkey3 Type     :{SOFTFKEY3_TYPE}
+SoftFkey3 Value    :{SOFTFKEY3_VALUE}
+SoftFkey3 Title    :{SOFTFKEY3_TITLE}
+SoftFkey4 Type     :{SOFTFKEY4_TYPE}
+SoftFkey4 Value    :{SOFTFKEY4_VALUE}
+SoftFkey4 Title    :{SOFTFKEY4_TITLE}
+SoftFkey5 Type     :{SOFTFKEY5_TYPE}
+SoftFkey5 Value    :{SOFTFKEY5_VALUE}
+SoftFkey5 Title    :{SOFTFKEY5_TITLE}
+SoftFkey6 Type     :{SOFTFKEY6_TYPE}
+SoftFkey6 Value    :{SOFTFKEY6_VALUE}
+SoftFkey6 Title    :{SOFTFKEY6_TITLE}
+SoftFkey7 Type     :{SOFTFKEY7_TYPE}
+SoftFkey7 Value    :{SOFTFKEY7_VALUE}
+SoftFkey7 Title    :{SOFTFKEY7_TITLE}
+SoftFkey8 Type     :{SOFTFKEY8_TYPE}
+SoftFkey8 Value    :{SOFTFKEY8_VALUE}
+SoftFkey8 Title    :{SOFTFKEY8_TITLE}
+SoftFkey9 Type     :{SOFTFKEY9_TYPE}
+SoftFkey9 Value    :{SOFTFKEY9_VALUE}
+SoftFkey9 Title    :{SOFTFKEY9_TITLE}
+SoftFkey10 Type    :{SOFTFKEY10_TYPE}
+SoftFkey10 Value   :{SOFTFKEY10_VALUE}
+SoftFkey10 Title   :{SOFTFKEY10_TITLE}
+Ui font Color      :title:0xFFFFFF@ welcome:0x333333$0xFFFFFF@ soft:0xFFFFFF@ list:0x444343
+Ui Title Color     :
+Ui Softkey Color   :
+Ui List  Color     :0x00$0xa9c1c9
+UI ListText Color  :
+Ui Balloon Color   :0x00$0x786d7e
+Ui Second Color    :
+Ui ScrnSaver Color :0x00$0x808080
+DSS Home Page      :0
+Download Pb search :0
+Block XML when call:1
+SIP Notify XML     :1
+XML Update Interval:0
+Hide DSS Icon      :0
+Notification Popups:1
+Desktop Time show  :1
+Play Boot Up Tone  :1
+Dss Text Size      :0
+
+<SCREEN KEY CONFIG MODULE>
+Desktop Softkey    :history;contact;dnd;menu;
+Talking Softkey    :hold;xfer;conf;end;
+Ringing Softkey    :accept;none;cfwd;reject;
+Alerting Softkey   :none;none;none;end;
+XAlerting Softkey  :xfer;none;none;end;
+Conference Softkey :hold;none;split;end;
+Waiting Softkey    :xfer;accept;reject;end;
+Ending Softkey     :repeat;none;none;end;
+DialerPre Softkey  :delete;save;send;exit;
+DialerCall Softkey :delete;history;send;exit;
+DialerXfer Softkey :delete;xfer;send;exit;
+DialerCfwd Softkey :delete;none;cfwd;exit;
+Desktop Click      :history;status;paccout;naccout;menu;
+Dailer  Click      :pline;nline;none;none;none;
+Call    Click      :pcall;ncall;voldown;volup;none;
+Desktop Long Press :status;none;none;sdial;reset;
+Softkey Mode       :1
+Softkey Exit Style :1
+
+<SIP Hotspot MODULE>
+Enable Hotspot     :0
+Mode               :1
+Listen Type        :0
+Listen IP          :224.0.2.0
+Listen Port        :16360
+Remote Port        :16360
+Own Name           :SIP Hotspot
+Ext Prefix         :0
+--Line Conf List-- :
+HS1 Enable         :1
+HS2 Enable         :1
+
+<AUTOUPDATE CONFIG MODULE>
+Download Username  :
+Download Password  :
+AP Pswd Encryption :0
+Config File Name   :
+Config File Key    :
+Common Cfg File Key:
+Download Server IP :http://192.168.100.206:3000/1778652035427/scan.cfg
+Download Protocol  :4
+Download Mode      :0
+Download Interval  :1
+DHCP Option        :66
+Save DHCP Opion    :0
+DHCP Option 120    :0
+PNP Enable         :{PNP_ENABLE}
+PNP IP             :{PNP_IP}
+PNP Port           :{PNP_PORT}
+PNP Transport      :{PNP_TRANSPORT}
+PNP Interval       :{PNP_INTERVAL}
+Save Provision Info:0
+Download CommonConf:1
+Download DeviceConf:1
+Check FailTimes    :1
+update PB Interval :720
+Clr PB B4 Import   :0
+Trust Certification:0
+Device Cert Mode   :0
+Auto Server Digest :0
+Enable Auto Upgrade:0
+Upgrade Server 1   :
+Upgrade Server 2   :
+Auto Upgrade intval:24
+
+<VPN CONFIG MODULE>
+VPN mode           :2
+L2TP LNS IP        :
+L2TP User Name     :
+L2TP Password      :
+L2TP Negotiate DNS :1
+Enable VPN Tunnel  :0
+VPN Server IP      :0.0.0.0
+VPN Server Port    :80
+Server Group ID    :VPN
+Server Area Code   :12345
+
+<DOT1X CONFIG MODULE>
+Xsup User          :admin
+Xsup Password      :admin
+Xsup Enable        :0
+Xsup AuthMac       :01:80:C2:00:00:03
+Xsup UseDefaultMac :1
+
+<TR069 CONFIG MODULE>
+ACS Server Type    :1
+ACS URL            :0.0.0.0
+ACS UserName       :admin
+ACS Password       :admin
+CPE UserName       :dps
+CPE Password       :dps
+CPE SerialNumber   :00100400FV02001000000c383e5a449c
+ParameterKey       :
+RebootCommandKey   :
+DownloadCommandKey :
+ProvisioningCode   :
+Download status    :0
+ACS Contact State  :0
+Download Start Time:0
+Download End Time  :0
+TR069 Tone         :0
+Enable TR069       :0
+TLS Version        :2
+Periodix Interval  :3600
+Area Code          :
+STUN Enable        :0
+STUN Server Addr   :0.0.0.0
+STUN Server Port   :3478
+STUN Local Port    :30000
+Heartbeat Interval :50
+Heart Resp Timeout :3
+STUN Max Period    :30
+STUN Min Period    :30
+Domain With Area   :0
+<<END OF FILE>>
+
+
+
