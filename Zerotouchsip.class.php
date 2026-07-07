@@ -64,7 +64,7 @@ class Zerotouchsip extends FreePBX_Helpers implements BMO
 	 */
 	public function getActionBar($request)
 	{
-		if (!isset($request['display']) || $request['display'] !== Zts_ModuleIdentifiers::RAWNAME)
+		if (!isset($request['display']) || $request['display'] !== \Zts_ModuleIdentifiers::RAWNAME)
 		{
 			return array();
 		}
@@ -98,7 +98,7 @@ class Zerotouchsip extends FreePBX_Helpers implements BMO
 			return;
 		}
 
-		$extId = Zts_InputValidator::positiveInt($_REQUEST['extdisplay']);
+		$extId = \Zts_InputValidator::positiveInt($_REQUEST['extdisplay']);
 		if ($extId < 1)
 		{
 			return;
@@ -120,11 +120,11 @@ class Zerotouchsip extends FreePBX_Helpers implements BMO
 		foreach ($phones as $phone)
 		{
 			$editURL = $_SERVER['PHP_SELF'].'?'.http_build_query(array(
-				'display' => Zts_ModuleIdentifiers::RAWNAME,
-				Zts_ModuleIdentifiers::FORM_PARAM => 'phones_edit',
+				'display' => \Zts_ModuleIdentifiers::RAWNAME,
+				\Zts_ModuleIdentifiers::FORM_PARAM => 'phones_edit',
 				'edit' => $phone['id'],
 			));
-			$tlabel = sprintf(_('Edit in %s: %s (%s)'), Zts_ModuleBranding::displayName(), $phone['name'], $phone['mac']);
+			$tlabel = sprintf(_('Edit in %s: %s (%s)'), \Zts_ModuleBranding::displayName(), $phone['name'], $phone['mac']);
 			$label = '<span><img width="16" height="16" border="0" title="'.$tlabel.'" alt="" src="images/telephone_edit.png"/>&nbsp;'.$tlabel.'</span>';
 			$currentcomponent->addguielem('_top', new \gui_link('zts_edit_phone', $label, $editURL, true, false), 0);
 		}
