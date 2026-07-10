@@ -987,7 +987,7 @@ Enable Time Plan Pause List:1
 DSS Name Search    :1
 Low Battery Tone   :0
 --Display Input--  :
-LCD Title          :{DEVICE_NAME}
+LCD Title          :{LCD_TITLE}
 LCD Constrast      :5
 Enable Energysaving:4
 LCD Luminance Level:12

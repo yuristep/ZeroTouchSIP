@@ -58,11 +58,15 @@ class Zts_FanvilBaselinePlaceholders
 
 		$sipLocalDomain = self::sipLocalDomain($sipHost);
 
+		$macSuffix4 = Zts_DeviceNamingService::macSuffix4($mac);
+
 		$map = array(
 			'DEVICE_NAME' => isset($device['name']) ? (string) $device['name'] : '',
 			'DEVICE_MAC' => $mac,
+			'DEVICE_MAC_SUFFIX4' => $macSuffix4,
 			'DEVICE_MODEL' => $model,
 			'DHCP_HOSTNAME' => zts_provisioning_dhcp_hostname($device),
+			'AP_SSID' => $macSuffix4 !== '' ? 'WiFiAP-'.strtolower($macSuffix4) : 'WiFiAP',
 			'FANVIL_LANG' => $fanvilLang,
 			'BACKLIGHT_TIME' => $fanvilBacklight,
 			'NTP_SERVER1' => $ntp1,
@@ -84,6 +88,10 @@ class Zts_FanvilBaselinePlaceholders
 		{
 			$map[$key] = $val;
 		}
+		$lcdTitle = isset($map['SIP1_DISPLAY_NAME']) && (string) $map['SIP1_DISPLAY_NAME'] !== ''
+			? (string) $map['SIP1_DISPLAY_NAME']
+			: (isset($device['name']) ? (string) $device['name'] : '');
+		$map['LCD_TITLE'] = $lcdTitle;
 
 		for ($n = 1; $n <= 15; $n++)
 		{
@@ -243,20 +251,23 @@ class Zts_FanvilBaselinePlaceholders
 					}
 					if (!empty($secret))
 					{
-						$display = !empty($freepbxDevice['name']) ? $freepbxDevice['name'] : $extension;
+						$display = self::resolveSipDisplayName($freepbxDevice, $extension);
 						$hlrow = zts_fanvil_hotline_row_values($device, $lineid);
 						$out[$p.'PHONE_NUMBER'] = (string) $extension;
 						$out[$p.'DISPLAY_NAME'] = (string) $display;
-						$out[$p.'SIP_NAME'] = $sipHost;
+						$out[$p.'SIP_NAME'] = (string) $extension;
 						$out[$p.'REGISTER_ADDR'] = $sipHost;
 						$out[$p.'REGISTER_PORT'] = $sipPort;
 						$out[$p.'REGISTER_USER'] = (string) $extension;
 						$out[$p.'REGISTER_PSWD'] = (string) $secret;
 						$out[$p.'REGISTER_TTL'] = $sipExpires;
+						$out[$p.'NEED_REG_ON'] = '0';
 						$out[$p.'BACKUP_ADDR'] = $sipHost;
 						$out[$p.'BACKUP_PORT'] = $sipPort;
 						$out[$p.'BACKUP_TRANSPORT'] = $sipTransport;
 						$out[$p.'BACKUP_TTL'] = $sipExpires;
+						$out[$p.'BACKUP_NEED_REG_ON'] = '0';
+						$out[$p.'PROXY_USER'] = (string) $extension;
 						$out[$p.'ENABLE_REG'] = '1';
 						$out[$p.'VOICE_CODEC_MAP'] = $codecMap;
 						$out[$p.'TRANSPORT'] = $sipTransport;
@@ -278,6 +289,55 @@ class Zts_FanvilBaselinePlaceholders
 	}
 
 	/**
+	 * FreePBX caller ID / display label for Fanvil SIP1/2 Display Name.
+	 *
+	 * @param array $freepbxDevice devices + users join row
+	 * @param string $extension
+	 * @return string
+	 */
+	private static function resolveSipDisplayName(array $freepbxDevice, $extension)
+	{
+		global $db;
+
+		$extension = trim((string) $extension);
+		$name = isset($freepbxDevice['name']) ? trim((string) $freepbxDevice['name']) : '';
+		if ($name !== '')
+		{
+			return $name;
+		}
+		$description = isset($freepbxDevice['description']) ? trim((string) $freepbxDevice['description']) : '';
+		if ($description !== '')
+		{
+			return $description;
+		}
+		if ($extension !== '')
+		{
+			$callerid = sql(
+				"SELECT data FROM sip WHERE id = '".$db->escapeSimple($extension)."' AND keyword = 'callerid'",
+				'getOne'
+			);
+			if (is_string($callerid) && $callerid !== '')
+			{
+				if (preg_match('/^\\s*"?([^"<]+)"?\\s*</', $callerid, $m) === 1)
+				{
+					$label = trim($m[1]);
+					if ($label !== '')
+					{
+						return $label;
+					}
+				}
+				$label = trim(preg_replace('/\\s*<.*$/', '', $callerid));
+				if ($label !== '')
+				{
+					return $label;
+				}
+			}
+		}
+
+		return $extension;
+	}
+
+	/**
 	 * @param int $lineid
 	 * @return array<string,string>
 	 */
@@ -294,10 +354,13 @@ class Zts_FanvilBaselinePlaceholders
 			$p.'REGISTER_USER' => '',
 			$p.'REGISTER_PSWD' => '',
 			$p.'REGISTER_TTL' => '',
+			$p.'NEED_REG_ON' => '0',
 			$p.'BACKUP_ADDR' => '',
 			$p.'BACKUP_PORT' => '',
 			$p.'BACKUP_TRANSPORT' => '',
 			$p.'BACKUP_TTL' => '',
+			$p.'BACKUP_NEED_REG_ON' => '0',
+			$p.'PROXY_USER' => '',
 			$p.'ENABLE_REG' => '0',
 			$p.'VOICE_CODEC_MAP' => '',
 			$p.'TRANSPORT' => '',

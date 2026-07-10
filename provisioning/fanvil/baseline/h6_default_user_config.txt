@@ -157,7 +157,7 @@ SIP1 Sip Name           :{SIP1_SIP_NAME}
 SIP1 Register Addr      :{SIP1_REGISTER_ADDR}
 SIP1 Register Port      :{SIP1_REGISTER_PORT}
 SIP1 Register User      :{SIP1_REGISTER_USER}
-###SIP1 Register Pswd      :
+SIP1 Register Pswd      :{SIP1_REGISTER_PSWD}
 SIP1 Register TTL       :{SIP1_REGISTER_TTL}
 SIP1 Need Reg On        :{SIP1_NEED_REG_ON}
 SIP1 Backup Addr        :{SIP1_BACKUP_ADDR}
@@ -321,7 +321,7 @@ SIP2 Sip Name           :{SIP2_SIP_NAME}
 SIP2 Register Addr      :{SIP2_REGISTER_ADDR}
 SIP2 Register Port      :{SIP2_REGISTER_PORT}
 SIP2 Register User      :{SIP2_REGISTER_USER}
-###SIP2 Register Pswd      :
+SIP2 Register Pswd      :{SIP2_REGISTER_PSWD}
 SIP2 Register TTL       :{SIP2_REGISTER_TTL}
 SIP2 Need Reg On        :{SIP2_NEED_REG_ON}
 SIP2 Backup Addr        :{SIP2_BACKUP_ADDR}
@@ -666,7 +666,7 @@ Enable Time Plan List :1
 Enable Time Plan Pause List:1
 DSS Name Search    :1
 --Display Input--  :
-LCD Title          :{DEVICE_NAME}
+LCD Title          :{LCD_TITLE}
 LCD Constrast      :5
 Enable Energysaving:4
 LCD Luminance Level:12
@@ -1828,7 +1828,7 @@ Enable Out Access   :0
 <AP DEFINED MODULE>
 AP Enable          :0
 AP Secure Mode     :1
-AP SSID            :WiFiAP-fbe3
+AP SSID            :{AP_SSID}
 ###AP Password        :
 
 <UI DEFINED CONFIG MODULE>

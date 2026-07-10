@@ -118,7 +118,10 @@ if (is_array($nr))
 					<i class="fa fa-pencil"></i> <span><?php echo _("Edit"); ?></span>
 				</button>
 				<button type="button" id="zts-phones-btn-notify" class="btn btn-default" disabled="disabled" data-section="zts-phone-list">
-					<i class="fa fa-refresh"></i> <span><?php echo _("Notify"); ?></span>
+					<i class="fa fa-bell"></i> <span><?php echo _("Notify (fast)"); ?></span>
+				</button>
+				<button type="button" id="zts-phones-btn-autoprovision" class="btn btn-default" disabled="disabled" data-section="zts-phone-list">
+					<i class="fa fa-refresh"></i> <span><?php echo _("Autoprovision"); ?></span>
 				</button>
 				<button type="button" id="zts-phones-btn-delete" class="btn btn-danger btn-remove" disabled="disabled" data-type="internal" data-section="zts-phone-list">
 					<i class="fa fa-trash"></i> <span><?php echo _("Delete"); ?></span>
@@ -278,9 +281,11 @@ if (is_array($nr))
 	var editBase = <?php echo json_encode($zts_phones_edit_url . '&edit='); ?>;
 	var btnEdit = $('#zts-phones-btn-edit');
 	var btnNotify = $('#zts-phones-btn-notify');
+	var btnAutoprovision = $('#zts-phones-btn-autoprovision');
 	var btnDelete = $('#zts-phones-btn-delete');
 	var btnApplyLinekeys = $('#zts-phones-btn-apply-linekeys');
 	var linekeyTemplate = $('#zts-linekey-template-id');
+	var searchInput = $('#zts-phone-search');
 	var bulk = $('#zts-phones-bulk');
 	var selectAll = table.find('thead .btSelectAll');
 	var paginator = null;
@@ -315,6 +320,7 @@ if (is_array($nr))
 		var ids = selectedIds();
 		var n = ids.length;
 		btnNotify.prop('disabled', n < 1);
+		btnAutoprovision.prop('disabled', n < 1);
 		btnDelete.prop('disabled', n < 1);
 		btnEdit.prop('disabled', n !== 1);
 		btnApplyLinekeys.prop('disabled', n < 1 || linekeyTemplate.val() === '');
@@ -331,6 +337,24 @@ if (is_array($nr))
 
 	table.on('change', 'tbody .btSelectItem', function () {
 		updateToolbar();
+	});
+
+	form.on('submit', function (e) {
+		// Search is client-side only; avoid accidental POST on Enter in the search field.
+		if ($.trim(bulk.val()) === '') {
+			e.preventDefault();
+		}
+	});
+
+	searchInput.on('keydown', function (e) {
+		if ((e.key && e.key === 'Enter') || e.which === 13) {
+			e.preventDefault();
+			if (paginator) {
+				paginator.resetPage();
+			} else {
+				updateToolbar();
+			}
+		}
 	});
 
 	function submitSingleRowAction(id, action, confirmMessage) {
@@ -358,7 +382,15 @@ if (is_array($nr))
 		if (selectedIds().length < 1) {
 			return;
 		}
-		bulk.val('notify');
+		bulk.val('notify_soft');
+		form.trigger('submit');
+	});
+
+	btnAutoprovision.on('click', function () {
+		if (selectedIds().length < 1) {
+			return;
+		}
+		bulk.val('autoprovision');
 		form.trigger('submit');
 	});
 
@@ -408,7 +440,7 @@ if (is_array($nr))
 	});
 
 	if (window.ZtsPhonesListSearch && window.ZtsPhonesListSearch.bind({
-		$input: $('#zts-phone-search'),
+		$input: searchInput,
 		$clear: $('#zts-phone-search-clear'),
 		$table: table,
 		onFilter: function () {
@@ -422,7 +454,7 @@ if (is_array($nr))
 	})) {
 		/* bound */
 	} else {
-		var $search = $('#zts-phone-search');
+		var $search = searchInput;
 		$search.on('input', function () {
 			var q = $.trim($search.val());
 			var matcher = window.ZtsListSearch && window.ZtsListSearch.rowMatches

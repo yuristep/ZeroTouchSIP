@@ -179,6 +179,7 @@ $zts_networks_edit_href = function ($editId) use ($zts_net_config_url) {
 	var editBase = <?php echo json_encode($zts_networks_edit_js_base); ?>;
 	var btnEdit = $('#zts-networks-btn-edit');
 	var btnDelete = $('#zts-networks-btn-delete');
+	var searchInput = $('#zts-network-search');
 	var bulk = $('#zts_networks_bulk');
 	var selectAll = table.find('thead .btSelectAll');
 
@@ -239,6 +240,19 @@ $zts_networks_edit_href = function ($editId) use ($zts_net_config_url) {
 		updateToolbar();
 	});
 
+	form.on('submit', function (e) {
+		if ($.trim(bulk.val()) === '') {
+			e.preventDefault();
+		}
+	});
+
+	searchInput.on('keydown', function (e) {
+		if ((e.key && e.key === 'Enter') || e.which === 13) {
+			e.preventDefault();
+			updateToolbar();
+		}
+	});
+
 	function submitSingleRowDelete(id) {
 		var box = table.find('tbody .btSelectItem[value="' + String(id).replace(/"/g, '\\"') + '"]');
 		if (!box.length) {
@@ -279,7 +293,7 @@ $zts_networks_edit_href = function ($editId) use ($zts_net_config_url) {
 		submitSingleRowDelete($(this).attr('data-network-id'));
 	});
 
-	$('#zts-network-search').on('input', function () {
+	searchInput.on('input', function () {
 		var q = $.trim($(this).val());
 		var matcher = window.ZtsListSearch && window.ZtsListSearch.rowMatches
 			? window.ZtsListSearch.rowMatches

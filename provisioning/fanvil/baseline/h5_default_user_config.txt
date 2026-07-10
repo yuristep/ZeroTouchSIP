@@ -618,7 +618,7 @@ Fast Keylock Code  :
 Enable KeyLock     :0
 KeyLock Status     :0
 Emergency Call     :110
-LCD Title          :{DEVICE_NAME}
+LCD Title          :{LCD_TITLE}
 LCD Constrast      :5
 LCD Luminance      :0
 Backlight Off Time :{BACKLIGHT_TIME}

@@ -13,14 +13,10 @@ class Zts_FanvilHttpNotifyService
 	{
 		$attempts = array();
 		$bases = array('/cgi-bin/ConfigManApp.com', '/cgi-bin/ConfigManApp');
+		// Keep the shortlist tight: these cover the working variants we have seen in production.
 		$post_bodies = array(
 			'key=Autoprovision&Request=Autoprovision',
 			'key=Autoprovision&request=Autoprovision',
-			'key=Autoprovision&Apply=Apply',
-			'key=Autoprovision&Submit=Autoprovision',
-			'Request=Autoprovision&key=Autoprovision',
-			'key=Autoprovision&action=Autoprovision',
-			'key=Autoprovision&cmd=download',
 		);
 		foreach ($bases as $base)
 		{
@@ -28,10 +24,7 @@ class Zts_FanvilHttpNotifyService
 			{
 				$attempts[] = array('method' => 'POST', 'path' => $base, 'body' => $body);
 			}
-			$attempts[] = array('method' => 'POST', 'path' => $base.'?key=Autoprovision', 'body' => 'request=1');
-			$attempts[] = array('method' => 'POST', 'path' => $base.'?key=Autoprovision', 'body' => '');
 			$attempts[] = array('method' => 'GET', 'path' => $base.'?key=Autoprovision&Request=Autoprovision', 'body' => null);
-			$attempts[] = array('method' => 'GET', 'path' => $base.'?key=Autoprovision&request=Autoprovision', 'body' => null);
 		}
 
 		return $attempts;
@@ -81,8 +74,8 @@ class Zts_FanvilHttpNotifyService
 				$ch = curl_init($url);
 				$opts = array(
 					CURLOPT_RETURNTRANSFER => true,
-					CURLOPT_CONNECTTIMEOUT => 5,
-					CURLOPT_TIMEOUT => 15,
+					CURLOPT_CONNECTTIMEOUT => 2,
+					CURLOPT_TIMEOUT => 4,
 					CURLOPT_FOLLOWLOCATION => true,
 					CURLOPT_MAXREDIRS => 5,
 					CURLOPT_HTTPAUTH => CURLAUTH_BASIC,

@@ -6,55 +6,45 @@
  */
 class Zts_NotifyCheckConfigService
 {
-	/**
-	 * Fanvil HTTP + SIP NOTIFY credentials for a phone Last IP (network MMI admin, else General Settings).
-	 *
-	 * @param string $lastip
-	 * @param array  $general zts_get_general_edit()
-	 * @return array{username:string,password:string}
-	 */
-	private static function fanvilHttpCredentialsForLastIp($lastip, array $general)
+	private static function fanvilRowsFromInventory(array $inv)
 	{
-		$network = zts_get_networks_ip($lastip);
-		if (is_array($network))
+		$fanvilRows = array();
+		foreach ($inv as $inv_row)
 		{
-			$creds = Zts_NetworkMmiAccountService::webAdminCredentials($network, $general);
-			if (!empty($creds['password']))
+			$prov = isset($inv_row['prov_profile']) ? $inv_row['prov_profile'] : '';
+			if (!Zts_NotifyVendorHeuristic::isFanvil(
+				isset($inv_row['model']) ? $inv_row['model'] : '',
+				isset($inv_row['name']) ? $inv_row['name'] : '',
+				$prov
+			))
 			{
-				return array(
-					'username' => !empty($creds['username']) ? (string) $creds['username'] : 'admin',
-					'password' => (string) $creds['password'],
-				);
+				continue;
 			}
+			$fanvilRows[] = $inv_row;
 		}
-		$fallback = Zts_GeneralPhoneSecurityService::adminWebCredentials($general, 'fanvil');
 
-		return array(
-			'username' => !empty($fallback['username']) ? (string) $fallback['username'] : 'admin',
-			'password' => !empty($fallback['password']) ? (string) $fallback['password'] : '',
-		);
+		return $fanvilRows;
 	}
 
-	/**
-	 * @param string $lastip
-	 * @param array  $general
-	 * @param string|int|bool $trust_certs
-	 * @return string
-	 */
-	private static function fanvilHttpAutoprovision($lastip, array $general, $trust_certs)
+	public static function queueAutoprovision($id = null)
 	{
-		$creds = self::fanvilHttpCredentialsForLastIp($lastip, $general);
-		if (trim($creds['password']) === '')
+		$general = zts_get_general_edit();
+		$trust_certs = isset($general['security_trust_certificates']) ? $general['security_trust_certificates'] : '0';
+		$inv = Zts_NotifyInventoryRepository::fetchInventory(!empty($id) ? $id : null);
+		$fanvilRows = self::fanvilRowsFromInventory($inv);
+		$jobId = Zts_FanvilBackgroundNotifyService::queueInventoryRows($fanvilRows, $general, $trust_certs);
+		if ($jobId !== '')
 		{
-			return 'skipped_no_credentials';
+			return array(
+				sprintf(
+					_('Fanvil HTTP autoprovision queued in background for %d phone(s). Job: %s'),
+					count($fanvilRows),
+					$jobId
+				)
+			);
 		}
 
-		return Zts_FanvilHttpNotifyService::runAutoprovision(
-			$lastip,
-			$creds['password'],
-			$trust_certs,
-			$creds['username']
-		);
+		return array(_('No Fanvil phones with Last IP were eligible for background autoprovision.'));
 	}
 
 	/**
@@ -196,76 +186,16 @@ class Zts_NotifyCheckConfigService
 
 		if (!$softNotify)
 		{
-		foreach ($inv as $inv_row)
-		{
-			$prov = isset($inv_row['prov_profile']) ? $inv_row['prov_profile'] : '';
-			if (!Zts_NotifyVendorHeuristic::isFanvil(
-				isset($inv_row['model']) ? $inv_row['model'] : '',
-				isset($inv_row['name']) ? $inv_row['name'] : '',
-				$prov
-			))
+			$fanvilRows = self::fanvilRowsFromInventory($inv);
+			$jobId = Zts_FanvilBackgroundNotifyService::queueInventoryRows($fanvilRows, $general, $trust_certs);
+			if ($jobId !== '')
 			{
-				continue;
+				$ui[] = sprintf(
+					_('Fanvil HTTP autoprovision queued in background for %d phone(s). Job: %s'),
+					count($fanvilRows),
+					$jobId
+				);
 			}
-			$tid = (string) $inv_row['id'];
-			$lip = trim(isset($inv_row['lastip']) ? $inv_row['lastip'] : '');
-			if ($lip === '')
-			{
-				$fanvil_http_status[$tid] = 'no_lastip';
-				error_log(Zts_ModuleBranding::logTag('Notify').' Fanvil id='.$tid.' — no Last IP in inventory, HTTP skipped.');
-				$ui[] = sprintf(_('Fanvil id %s: no Last IP — HTTP skipped'), $tid);
-				continue;
-			}
-			$st = self::fanvilHttpAutoprovision($lip, $general, $trust_certs);
-			$fanvil_http_status[$tid] = $st;
-			error_log(Zts_ModuleBranding::logTag('Notify').' Fanvil HTTP Autoprovision id='.$tid.' ip='.$lip.' status='.$st);
-			$ui[] = sprintf(_('Fanvil id %s (%s): HTTP Autoprovision %s'), $tid, $lip, $st);
-		}
-
-		$sip_fallback_sent = array();
-		foreach ($inv as $inv_row)
-		{
-			$prov = isset($inv_row['prov_profile']) ? $inv_row['prov_profile'] : '';
-			if (!Zts_NotifyVendorHeuristic::isFanvil(
-				isset($inv_row['model']) ? $inv_row['model'] : '',
-				isset($inv_row['name']) ? $inv_row['name'] : '',
-				$prov
-			))
-			{
-				continue;
-			}
-			$tid = (string) $inv_row['id'];
-			$st = isset($fanvil_http_status[$tid]) ? $fanvil_http_status[$tid] : '';
-			if (strpos($st, 'ok_') === 0)
-			{
-				continue;
-			}
-			$ldrows = Zts_NotifyInventoryRepository::fetchLineDeviceIds($tid);
-			if (!is_array($ldrows))
-			{
-				continue;
-			}
-			foreach ($ldrows as $lr)
-			{
-				$pd = $lr['deviceid'];
-				if (isset($sip_fallback_sent[$pd]) || isset($sip_notify_sent[$pd]))
-				{
-					continue;
-				}
-				$sip_fallback_sent[$pd] = true;
-				$ep = Zts_NotifyPjsipService::endpointNameForDevicesTableId($pd);
-				if (Zts_NotifyPjsipService::notifyEndpoint($pd, false) === '')
-				{
-					$ui[] = sprintf(_('Extension %s: extra SIP check-sync (HTTP was %s).'), $ep, $st !== '' ? $st : 'unknown');
-				}
-				elseif (!$amiWarned)
-				{
-					$amiWarned = true;
-					$ui[] = _('Asterisk Manager (AMI) is not available — extra SIP NOTIFY was not sent.');
-				}
-				error_log(Zts_ModuleBranding::logTag('Notify').' Fanvil id='.$tid.' — HTTP supplement did not succeed ('.$st.'); yealink-check-cfg to extension '.$ep.' (devices.id '.$pd.').');
-			}
-		}
 		}
 
 		if (count($ui) === 0)
@@ -344,8 +274,12 @@ class Zts_NotifyCheckConfigService
 				{
 					$general = zts_get_general_edit();
 					$trust_certs = isset($general['security_trust_certificates']) ? $general['security_trust_certificates'] : '0';
-					$st = self::fanvilHttpAutoprovision($lip, $general, $trust_certs);
-					error_log(Zts_ModuleBranding::logTag('Notify').' (after save) Fanvil HTTP Autoprovision id='.$device_edit_id.' ip='.$lip.' status='.$st);
+					$jobId = Zts_FanvilBackgroundNotifyService::queueInventoryRows(array($row), $general, $trust_certs);
+					error_log(
+						Zts_ModuleBranding::logTag('Notify')
+						.' (after save) Fanvil HTTP background queued id='.$device_edit_id
+						.' ip='.$lip.' job='.($jobId !== '' ? $jobId : 'none')
+					);
 				}
 			}
 			else

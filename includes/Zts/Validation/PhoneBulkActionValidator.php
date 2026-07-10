@@ -9,11 +9,12 @@ class Zts_PhoneBulkActionValidator
 	const ACTION_DELETE = 'delete';
 	const ACTION_NOTIFY = 'notify';
 	const ACTION_NOTIFY_SOFT = 'notify_soft';
+	const ACTION_AUTOPROVISION = 'autoprovision';
 	const ACTION_APPLY_LINEKEY_TEMPLATE = 'apply_linekey_template';
 
 	/**
 	 * @param mixed $bulk
-	 * @return string delete|notify|notify_soft|apply_linekey_template|''
+	 * @return string delete|notify|notify_soft|autoprovision|apply_linekey_template|''
 	 */
 	public static function parseAction($bulk)
 	{
@@ -23,6 +24,7 @@ class Zts_PhoneBulkActionValidator
 				self::ACTION_DELETE => true,
 				self::ACTION_NOTIFY => true,
 				self::ACTION_NOTIFY_SOFT => true,
+				self::ACTION_AUTOPROVISION => true,
 				self::ACTION_APPLY_LINEKEY_TEMPLATE => true,
 			),
 			''

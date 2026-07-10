@@ -44,6 +44,11 @@ class Zts_PhonesListController
 				Zts_NotifySessionService::storeResults(zts_notify_checkconfig($phone_ids, true));
 				redirect($phones_list_redir);
 			}
+			if ($bulk === Zts_PhoneBulkActionValidator::ACTION_AUTOPROVISION && count($phone_ids) > 0)
+			{
+				Zts_NotifySessionService::storeResults(Zts_NotifyCheckConfigService::queueAutoprovision($phone_ids));
+				redirect($phones_list_redir);
+			}
 			if ($bulk === Zts_PhoneBulkActionValidator::ACTION_APPLY_LINEKEY_TEMPLATE && count($phone_ids) > 0)
 			{
 				$templateId = isset($_POST['linekey_template_id']) ? (string) $_POST['linekey_template_id'] : '';

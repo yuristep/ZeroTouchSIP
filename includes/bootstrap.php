@@ -39,6 +39,7 @@ require_once $ztsInc . '/Service/NotifyVendorHeuristic.php';
 require_once $ztsInc . '/Service/NotifyPjsipService.php';
 require_once $ztsInc . '/Repository/NotifyInventoryRepository.php';
 require_once $ztsInc . '/Service/FanvilHttpNotifyService.php';
+require_once $ztsInc . '/Service/FanvilBackgroundNotifyService.php';
 require_once $ztsInc . '/Service/PhoneWebUiAccessService.php';
 require_once $ztsInc . '/Service/NotifyCheckConfigService.php';
 require_once $ztsInc . '/Service/NotifySessionService.php';
